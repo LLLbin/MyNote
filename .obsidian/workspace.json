@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "026eeda12762752e",
+    "type": "split",
+    "children": [
+      {
+        "id": "035d240325957163",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22da5b808b554e9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb1185432afabb1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "69b842262b3d86a6",
+        "type": "tabs",
+        "dimension": 74.01960784313725,
+        "children": [
+          {
+            "id": "d57c600b0ca1a824",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6af56a48e1c1d3c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b983561445f77b8c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "2a1efde347167351",
+        "type": "tabs",
+        "dimension": 25.980392156862745,
+        "children": [
+          {
+            "id": "6e15cfe39f75eb6f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 355.5
+  },
+  "right": {
+    "id": "56e95fde4bd41373",
+    "type": "split",
+    "children": [
+      {
+        "id": "04df3b2869d92397",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59f9bdec12cab8d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9800b53415e54d69",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f1e4f3a12bbf92e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9c1c6cf5db19cdeb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "e551e8c11c48effd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": true,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "22da5b808b554e9c",
+  "lastOpenFiles": [
+    "TODO List.md",
+    "README.md",
+    "id_rsa_obsidian.pub",
+    "id_rsa_obsidian",
+    "Research/Image & Video Compression/Image and Video Compression Basis.md",
+    "Programming/Python/库/第三方库/pandas库/pandas 库.md",
+    "Programming/Python/库/第三方库/pandas库/Pandas 数据类型.md",
+    "Programming/Python/库/第三方库/pandas库/Pandas 函数.md",
+    "Programming/Python/3. 第三方库.md",
+    "English/Listening/S1-E01.md",
+    "Programming/Python/1. Python.md",
+    "Programming/Python/python/文件类型.md",
+    "Programming/Python/python/文件处理.md",
+    "Programming/Python/python/文件方法.md",
+    "Programming/Python/python/文件对象.md",
+    "Programming/Python/python/序列类型.md",
+    "Programming/Python/python/bytes类型.md",
+    "Programming/Python/python/字符串.md",
+    "Programming/Python/python/bytearray类型.md",
+    "Programming/Python/2. 标准库.md",
+    "Programming/Python/库/第三方库/numpy库/numpy 库.md",
+    "Programming/Python/库/第三方库/numpy库/ndarray 类.md",
+    "Programming/Python/库/第三方库/numpy库/ndarray 创建.md",
+    "Programming/Python/库/标准库/http 库.md",
+    "Programming/Python/库/标准库/queue 库.md",
+    "Programming/Python/库/标准库/zlib 库.md",
+    "Programming/Python/库/标准库/set - 进程和线程.md",
+    "Programming/Python/库/标准库/threading 库.md",
+    "English/Listening",
+    "English/words/A",
+    "English/words",
+    "English",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "Excalidraw",
+    "Images/hw5-sols.pdf",
+    "Extension-Request-Form.pdf",
+    "Images/TA-Application-form.pdf",
+    "Images/Pasted image 20240214013248.png",
+    "Images/Pasted image 20240214010655.png",
+    "Images/Pasted image 20240214010632.png",
+    "Images/Pasted image 20240213232135.png",
+    "Images/Pasted image 20240214014711.png",
+    "Images/Pasted image 20240214014607.png",
+    "Images/Pasted image 20240214014410.png",
+    "Images/Pasted image 20240214014358.png",
+    "Images/Pasted image 20240214014341.png",
+    "Images/Pasted image 20240214013841.png"
+  ]
+}
