@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2c3b4b5fa40cf845",
+        "id": "ad0a08003fdaabad",
         "type": "tabs",
         "children": [
           {
-            "id": "8d7d6c4378d63830",
+            "id": "e1c2b13d945d09dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Skill/Python/3. 三方库.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97758d746436b820",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill/Python/3. 三方库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill/Python/3. 三方库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Skill/Python/3. 三方库.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,7 +152,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skill/Python/3. 三方库.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -221,8 +201,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "97758d746436b820",
+  "active": "e1c2b13d945d09dd",
   "lastOpenFiles": [
+    "Skill/Python/3. 三方库.md",
     "Research/Super Resolution/论文 IDEA.md",
     "Journal/2024 - Mar - Week 14th.md",
     "Journal/2024 - Mar - Week 13th.md",
@@ -230,7 +211,6 @@
     "Skill/Deep Learning/理论基础/3. Structuring Machine Learning.md",
     "Skill/Deep Learning/理论基础/1. Neural Networks.md",
     "Skill/Deep Learning/理论基础/2. Improving Neural Networks.md",
-    "Skill/Python/3. 三方库.md",
     "Skill/Python/2. 标准库.md",
     "Skill/Python/1. Python.md",
     "Skill/Python/库/第三方库/fake_useragent 库/fake_useragent 库.md",

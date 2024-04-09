@@ -4,7 +4,14 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "obsidian-git:commit",
+      "icon": "git-commit",
+      "name": "Git: Commit all changes",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
