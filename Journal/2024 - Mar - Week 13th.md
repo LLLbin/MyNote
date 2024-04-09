@@ -1,0 +1,13 @@
+- 工作：
+	- 入职futurewei
+	- 完成入职培训
+	- 复现SR论文看看效果
+		- Anime4K
+		- AdaCode
+	- 收集Carla数据
+- 学习
+	- SCU（春假）
+	- 自学（摆了）
+- 生活
+	- 疯狂 Factor
+	- Hiking

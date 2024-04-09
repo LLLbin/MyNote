@@ -20,13 +20,51 @@
       "icon": "lucide-separator-vertical",
       "name": "左右分屏",
       "mode": "any"
+    },
+    {
+      "id": "workspace:split-horizontal",
+      "icon": "lucide-separator-horizontal",
+      "name": "上下分屏",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "icon": "box",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-mind-map:app:markmap-preview",
+      "icon": "map",
+      "name": "Mind Map: Preview the current note as a Mind Map",
+      "mode": "any"
+    },
+    {
+      "id": "editor:open-search-replace",
+      "icon": "lucide-search",
+      "name": "Search & replace in current file",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "icon": "box",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "mode": "any"
     }
   ],
   "macros": [],
   "explorer": [],
   "hide": {
     "statusbar": [],
-    "leftRibbon": []
+    "leftRibbon": [
+      "插入模板",
+      "打开命令面板",
+      "Open this week",
+      "Open command palette",
+      "Insert template",
+      "Advanced Tables Toolbar",
+      "Open graph view"
+    ]
   },
   "spacing": "8",
   "advancedToolbar": {

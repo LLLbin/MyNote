@@ -1,4 +1,17 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "/Images"
+  "attachmentFolderPath": "/- Attachment",
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "- Inbox",
+  "defaultViewMode": "source",
+  "showIndentGuide": true,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

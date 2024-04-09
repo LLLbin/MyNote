@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"type":"group","id":"68a392e12c257bd7","x":-40,"y":-320,"width":1140,"height":460,"color":"#f0f0f0","label":"类继承关系"},
+		{"type":"text","text":"[[class io.IOBase]]\n抽象基类","id":"41719e5490cc5223","x":-20,"y":-132,"width":170,"height":60},
+		{"type":"text","text":"[[class io.RawIOBase]]\n原始二进制流的基类","id":"a48dfb64caf80973","x":200,"y":-232,"width":250,"height":60},
+		{"type":"text","text":"[[class io.StringIO]]","id":"8f4c9b932f25eb8a","x":580,"y":-222,"width":200,"height":50},
+		{"type":"text","text":"[[class io.BytesIO]]","id":"bd4b9be17694f8ec","x":580,"y":-97,"width":200,"height":50},
+		{"type":"text","text":"[[class io.BufferedReader]]","id":"2babafabf7a6d636","x":580,"y":-47,"width":200,"height":50},
+		{"type":"text","text":"[[class io.TextIOWrapper]]","id":"2e21fa4b148f3550","x":580,"y":-172,"width":200,"height":50},
+		{"type":"text","text":"[[class io.BufferedIOBase]]\n支持缓冲的二进制流的基类","id":"91662bc0bea8c011","x":200,"y":-32,"width":250,"height":60},
+		{"type":"text","text":"[[class io.TextIOBase]]\n文本流的基类","id":"89c37b1a3ae3d3c1","x":200,"y":-132,"width":250,"height":60},
+		{"type":"text","text":"class io.FileIO","id":"da9d636c24cf9b80","x":580,"y":-297,"width":200,"height":50},
+		{"type":"text","text":"[[class io.BufferedWriter]]","id":"ef900c38de44ffab","x":580,"y":3,"width":200,"height":50},
+		{"type":"text","text":"class io.BufferedRWPair","id":"66810bc71eda1925","x":580,"y":53,"width":200,"height":50},
+		{"type":"text","text":"_class_ io.BufferedRandom","id":"5f62efd574367453","x":880,"y":-22,"width":200,"height":50}
+	],
+	"edges":[
+		{"id":"50e3476ce0596875","fromNode":"89c37b1a3ae3d3c1","fromSide":"left","toNode":"41719e5490cc5223","toSide":"right"},
+		{"id":"c64f1cd26ea3c7db","fromNode":"a48dfb64caf80973","fromSide":"left","toNode":"41719e5490cc5223","toSide":"right"},
+		{"id":"75d05c9eabf47614","fromNode":"91662bc0bea8c011","fromSide":"left","toNode":"41719e5490cc5223","toSide":"right"},
+		{"id":"441e16d5aecf97cf","fromNode":"8f4c9b932f25eb8a","fromSide":"left","toNode":"89c37b1a3ae3d3c1","toSide":"right"},
+		{"id":"421a4deaca44573b","fromNode":"2e21fa4b148f3550","fromSide":"left","toNode":"89c37b1a3ae3d3c1","toSide":"right"},
+		{"id":"8eb342a8489b5878","fromNode":"da9d636c24cf9b80","fromSide":"left","toNode":"a48dfb64caf80973","toSide":"right"},
+		{"id":"8360db60f38b1aeb","fromNode":"bd4b9be17694f8ec","fromSide":"left","toNode":"91662bc0bea8c011","toSide":"right"},
+		{"id":"af3d96f62dcdfcca","fromNode":"2babafabf7a6d636","fromSide":"left","toNode":"91662bc0bea8c011","toSide":"right"},
+		{"id":"eeefca8e2364fdd6","fromNode":"ef900c38de44ffab","fromSide":"left","toNode":"91662bc0bea8c011","toSide":"right"},
+		{"id":"569c7090d73dd0e1","fromNode":"66810bc71eda1925","fromSide":"left","toNode":"91662bc0bea8c011","toSide":"right"},
+		{"id":"5eb188f2041b8020","fromNode":"5f62efd574367453","fromSide":"left","toNode":"2babafabf7a6d636","toSide":"right"},
+		{"id":"805622eafb045aec","fromNode":"5f62efd574367453","fromSide":"left","toNode":"ef900c38de44ffab","toSide":"right"}
+	]
+}

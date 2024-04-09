@@ -1,0 +1,17 @@
+- 工作
+	- 完成Carla的数据采集
+	- 阅读论文，夯实基础
+		- VQGAN
+		- AdaCode
+		- MLSC
+		- CompressAI
+- 学习
+	- SCU
+		- EMGT 255
+		- ECEN 280
+	- 自学
+		- 吴恩达视频
+		- 英语
+- 生活
+	- 踢球
+	- 剧本杀
