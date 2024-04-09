@@ -11,8 +11,12 @@
             "id": "e1c2b13d945d09dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Journal/2024 - Mar - Week 14th.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Journal/2024 - Mar - Week 14th.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Journal/2024 - Mar - Week 14th.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Journal/2024 - Mar - Week 14th.md"
+              }
             }
           },
           {
@@ -152,6 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Journal/2024 - Mar - Week 14th.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,12 +211,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "d57c600b0ca1a824",
+  "active": "e1c2b13d945d09dd",
   "lastOpenFiles": [
+    "Journal/2024 - Mar - Week 13th.md",
+    "Journal/2024 - Mar - Week 14th.md",
     "Skill/Python/3. 三方库.md",
     "Research/Super Resolution/论文 IDEA.md",
-    "Journal/2024 - Mar - Week 14th.md",
-    "Journal/2024 - Mar - Week 13th.md",
     "Skill/Deep Learning/理论基础/5. Natural Language Processing (NLP).md",
     "Skill/Deep Learning/理论基础/3. Structuring Machine Learning.md",
     "Skill/Deep Learning/理论基础/1. Neural Networks.md",
