@@ -3,8 +3,13 @@
 	- 采集Carla数据集（代码有bug，数据作废）
 - 学习
 	- SCU
-		- 
-	- 自学
-		- 
+		- EMGT 255
+		- ECEN 280
+		- 申请OPT
+		- 申请PhD
+	- 自学（摆了）
 - 生活
-	- 
+	- 送01去机场（想念我的宝）
+	- 第一场soccer比赛
+	- 解决了万恶的factor
+	- credit card更新了SSN信息
