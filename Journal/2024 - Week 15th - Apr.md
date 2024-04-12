@@ -12,4 +12,3 @@
 	- 送01去机场（想念我的宝）
 	- 第一场soccer比赛
 	- 解决了万恶的factor
-	- credit card更新了SSN信息

@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1c2b13d945d09dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/2024 - Week 15th - Apr.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e941d6085cdae975",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2024 - Week 13th - Mar.md",
+                "file": "Journal/2024 - Week 15th - Apr.md",
                 "mode": "source",
                 "source": false
               }
@@ -222,11 +210,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "e1c2b13d945d09dd",
+  "active": "e941d6085cdae975",
   "lastOpenFiles": [
-    "Journal/2024 - Week 14th - Mar.md",
+    "English/Listening/S1E01.md",
     "Journal/2024 - Week 15th - Apr.md",
     "Journal/2024 - Week 13th - Mar.md",
+    "Journal/2024 - Week 14th - Mar.md",
     "Journal/2024 - Week 15th (Apr).md",
     "Journal/2024 - Apr - Week 15th.md",
     "- Template/Weekly Journal Template.md",
@@ -258,7 +247,6 @@
     "English/Speaking/日常词汇.pdf",
     "English/Speaking/日常句子.pdf",
     "English/Speaking/日常造句.pdf",
-    "English/Speaking/Speaking.md",
     "English/Speaking",
     "Research/Super Resolution/OverNet Lightweight Multi-Scale Super-Resolution with Overscaling Network.pdf",
     "Research/Compression/slides/C1 - Overview of Video Compr Stds - newest v9.pdf",
