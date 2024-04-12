@@ -16,8 +16,17 @@
                 "file": "TODO List.md"
               }
             }
+          },
+          {
+            "id": "68b5148f7e1dead1",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,8 +217,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "d57c600b0ca1a824",
+  "active": "68b5148f7e1dead1",
   "lastOpenFiles": [
+    "- Calender/school life/(Every F,W) CSEN 338.md",
+    "TODO List.md",
+    "- Calender/daily life/2024-02-26 拿快递.md",
+    "- Calender/01 life/2024-02-16 01 379 hw5.md",
+    "- Calender/01 life/2024-02-17 01 gameday.md",
+    "- Calender/01 life/2024-02-16 01 gameday.md",
     "- Calender/work life",
     "Journal/2024 - Week 15th - Apr.md",
     "Journal/2024 - Week 14th - Mar.md",
@@ -223,7 +238,6 @@
     "- Excalidraw/Drawing 2024-04-09 13.23.18.excalidraw.md",
     "README.md",
     "- Attachment/Pasted image 20240409132341.png",
-    "TODO List.md",
     "- Template",
     "- Excalidraw",
     "- Attachment",
@@ -238,16 +252,11 @@
     "Skill/Python/2. 标准库.md",
     "Skill/Python/1. Python.md",
     "Skill/Python/库/第三方库/fake_useragent 库/fake_useragent 库.md",
-    "Skill/Python/库/第三方库/requests库/requests 库.md",
-    "Skill/Python/库/第三方库/web 基础/web 基础.md",
-    "Skill/Python/库/第三方库/numpy库/numpy 库.md",
-    "Skill/Python/库/第三方库/pandas库/pandas 库.md",
     "English/Speaking/日常词汇.pdf",
     "English/Speaking/日常句子.pdf",
     "English/Speaking/日常造句.pdf",
     "English/Speaking",
     "Research/Super Resolution/OverNet Lightweight Multi-Scale Super-Resolution with Overscaling Network.pdf",
-    "Research/Compression/slides/C1 - Overview of Video Compr Stds - newest v9.pdf",
     "Skill/Python/库/标准库/io 库 类.canvas",
     "Obsidian-Python-vault 1.3/库/标准库/io 库 类.canvas",
     "- Attachment/Pasted image 20240228121240.png",
