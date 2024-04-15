@@ -4,33 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "ad0a08003fdaabad",
-        "type": "tabs",
+        "id": "bb3bb34b24c5116f",
+        "type": "split",
         "children": [
           {
-            "id": "e941d6085cdae975",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "TODO List.md"
+            "id": "ad0a08003fdaabad",
+            "type": "tabs",
+            "dimension": 25,
+            "children": [
+              {
+                "id": "e941d6085cdae975",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "TODO List.md"
+                  }
+                }
+              },
+              {
+                "id": "249421be1904ba8d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "- Inbox/new.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "249421be1904ba8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/new.md",
-                "mode": "source",
-                "source": false
+            "id": "b9562f859c5d94e8",
+            "type": "tabs",
+            "dimension": 75,
+            "children": [
+              {
+                "id": "c78fe1c08b915ff5",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
               }
-            }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
