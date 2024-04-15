@@ -12,8 +12,11 @@
 			- Color
 			- Segmentation
 			- Depth
-	- 100 frames
-	- 20 sequences
+	- Frames
+		- 1920(W) x 1440(H)
+		- 100
+	- Sequence
+		- 20
 - Town
 	- Town01_Opt
 	- Town02_Opt
@@ -32,14 +35,21 @@
 	- Static
 		- 1 camera car
 - Camera Car
-	- 18 cameras
-		- 6 positions, 1 for every 60°
-		- 3 types
+	- 6 cameras
+		- 1 front camera
+		- 6 types
 			- Color
 			- Segmentation
 			- Depth
-	- 100 frames
-	- 20 sequences
+			- 
+	- Frames
+		- HR
+			- 1920(W) x 1440(H)
+		- LR
+			- 960(W) x 720(H)
+		- 100
+	- Sequence
+		- 20
 - Town
 	- Town01_Opt
 	- Town02_Opt
