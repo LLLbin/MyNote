@@ -8,6 +8,4 @@
 4. Method
 5. Experiment Result
 6. Conclusion
-7. Reference
-
-Cat and Mousa
+7. References

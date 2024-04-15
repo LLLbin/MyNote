@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Super Resolution/Thesis.md",
+                "file": "Futurewei/Evaluation.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 200
   },
   "right": {
     "id": "56e95fde4bd41373",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Super Resolution/Thesis.md",
+                "file": "Futurewei/Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/Super Resolution/Thesis.md",
+                "file": "Futurewei/Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/Super Resolution/Thesis.md"
+                "file": "Futurewei/Evaluation.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Research/Super Resolution/Thesis.md",
+                "file": "Futurewei/Evaluation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,8 +223,8 @@
   },
   "active": "249421be1904ba8d",
   "lastOpenFiles": [
-    "TODO List.md",
     "Research/Super Resolution/Thesis.md",
+    "TODO List.md",
     "Research/Super Resolution/论文 IDEA.md",
     "Futurewei/Carla Dataset.md",
     "Futurewei/Evaluation.md",

@@ -1,7 +1,7 @@
 ### NeRF Ganeration
-- 再说
+- ...
 ### Super Resolution
 - Anime4K
-- Adacode
+- AdaCode
 - FeMaSR
-- RealESQ GAN
+- Real-ESRQ GAN
