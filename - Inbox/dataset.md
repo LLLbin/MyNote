@@ -1,4 +1,4 @@
-### dataset
+### datasets
 ##### NeRF360
 - Environment Type
 	- Dynamic

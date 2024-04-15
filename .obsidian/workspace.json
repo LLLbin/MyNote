@@ -10,7 +10,7 @@
           {
             "id": "ad0a08003fdaabad",
             "type": "tabs",
-            "dimension": 25,
+            "dimension": 57.125,
             "children": [
               {
                 "id": "e941d6085cdae975",
@@ -28,7 +28,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "- Inbox/new.md",
+                    "file": "- Inbox/dataset.md",
                     "mode": "source",
                     "source": false
                   }
@@ -40,7 +40,7 @@
           {
             "id": "b9562f859c5d94e8",
             "type": "tabs",
-            "dimension": 75,
+            "dimension": 42.875,
             "children": [
               {
                 "id": "c78fe1c08b915ff5",
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Inbox/new.md",
+                "file": "- Inbox/dataset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Inbox/new.md",
+                "file": "- Inbox/dataset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Inbox/new.md"
+                "file": "- Inbox/dataset.md"
               }
             }
           },
@@ -194,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "- Inbox/new.md",
+                "file": "- Inbox/dataset.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -247,7 +247,7 @@
   "active": "249421be1904ba8d",
   "lastOpenFiles": [
     "TODO List.md",
-    "- Inbox/new.md",
+    "- Inbox/dataset.md",
     "- Calender/school life/(Every F,W) CSEN 338.md",
     "- Calender/daily life/2024-02-26 拿快递.md",
     "- Calender/01 life/2024-02-16 01 379 hw5.md",
