@@ -4,4 +4,5 @@
 - Anime4K
 - Adacode
 - FeMaSR
+- RealESQ GAN
 - 
