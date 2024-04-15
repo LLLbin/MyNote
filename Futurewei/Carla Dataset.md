@@ -1,4 +1,4 @@
-### datasets
+### Datasets
 ##### NeRF360
 - Environment Type
 	- Dynamic
@@ -13,7 +13,7 @@
 			- Segmentation
 			- Depth
 	- Frames
-		- 100
+		- 100 -> 60
 	- Sequence
 		- 20
 - Town
@@ -48,7 +48,7 @@
 			- GbufferB
 			- GbufferC
 	- Frames
-		- 100
+		- 100 -> 60
 	- Sequence
 		- 20
 - Town
