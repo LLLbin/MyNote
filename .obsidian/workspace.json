@@ -4,33 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "ad0a08003fdaabad",
-        "type": "tabs",
+        "id": "55ae1cae29599331",
+        "type": "split",
         "children": [
           {
-            "id": "e941d6085cdae975",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "TODO List.md"
+            "id": "ad0a08003fdaabad",
+            "type": "tabs",
+            "dimension": 27.790973871733964,
+            "children": [
+              {
+                "id": "e941d6085cdae975",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "TODO List.md"
+                  }
+                }
+              },
+              {
+                "id": "249421be1904ba8d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Futurewei/Carla Dataset.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "249421be1904ba8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Futurewei/Evaluation.md",
-                "mode": "source",
-                "source": false
+            "id": "00a6f4f9f32d107c",
+            "type": "tabs",
+            "dimension": 72.20902612826603,
+            "children": [
+              {
+                "id": "1f17c92331685b23",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
               }
-            }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -105,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Futurewei/Evaluation.md",
+                "file": "Futurewei/Carla Dataset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Futurewei/Evaluation.md",
+                "file": "Futurewei/Carla Dataset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Futurewei/Evaluation.md"
+                "file": "Futurewei/Carla Dataset.md"
               }
             }
           },
@@ -171,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Futurewei/Evaluation.md",
+                "file": "Futurewei/Carla Dataset.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,8 +246,8 @@
   },
   "active": "249421be1904ba8d",
   "lastOpenFiles": [
-    "TODO List.md",
     "Futurewei/Evaluation.md",
+    "TODO List.md",
     "Research/Super Resolution/Thesis.md",
     "Research/Super Resolution/论文 IDEA.md",
     "Futurewei/Carla Dataset.md",
