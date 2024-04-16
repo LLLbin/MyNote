@@ -4,56 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "55ae1cae29599331",
-        "type": "split",
+        "id": "ad0a08003fdaabad",
+        "type": "tabs",
         "children": [
           {
-            "id": "ad0a08003fdaabad",
-            "type": "tabs",
-            "dimension": 27.790973871733964,
-            "children": [
-              {
-                "id": "e941d6085cdae975",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "TODO List.md"
-                  }
-                }
-              },
-              {
-                "id": "249421be1904ba8d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Futurewei/Carla Dataset.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "e941d6085cdae975",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "TODO List.md"
               }
-            ],
-            "currentTab": 1
+            }
           },
           {
-            "id": "00a6f4f9f32d107c",
-            "type": "tabs",
-            "dimension": 72.20902612826603,
-            "children": [
-              {
-                "id": "1f17c92331685b23",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {}
-                }
+            "id": "249421be1904ba8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Futurewei/Carla Dataset.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
