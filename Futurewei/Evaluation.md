@@ -4,4 +4,4 @@
 - Anime4K
 - AdaCode
 - FeMaSR
-- Real-ESRQ GAN
+- Real-ESRQGAN
