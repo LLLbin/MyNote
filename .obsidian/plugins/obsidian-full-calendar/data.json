@@ -2,23 +2,23 @@
   "calendarSources": [
     {
       "type": "local",
-      "color": "#fbad65",
+      "color": "#be9393",
+      "directory": "- Calender/01 life"
+    },
+    {
+      "type": "local",
+      "color": "#42cd44",
       "directory": "- Calender/daily life"
     },
     {
       "type": "local",
-      "color": "#65e668",
-      "directory": "- Calender/school life"
-    },
-    {
-      "type": "local",
-      "color": "#29e6fe",
+      "color": "#ff8585",
       "directory": "- Calender/work life"
     },
     {
       "type": "local",
-      "color": "#537efd",
-      "directory": "- Calender/01 life"
+      "color": "#57acc1",
+      "directory": "- Calender/school life"
     }
   ],
   "defaultCalendar": 0,
