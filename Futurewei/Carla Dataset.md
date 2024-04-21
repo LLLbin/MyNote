@@ -1,0 +1,64 @@
+### Datasets
+##### NeRF360
+- Environment Type
+	- Dynamic
+		- 1 camera car + 30 cars
+	- Static
+		- 1 camera car
+- Camera Car
+	- 18 cameras (1920(W) x 1440(H))
+		- 6 positions, 1 for every 60°
+		- 3 types
+			- Color
+			- Segmentation
+			- Depth
+	- Frames
+		- 100 -> 60
+	- Sequence
+		- 20
+- Town
+	- Town01_Opt
+	- Town02_Opt
+	- Town03_Opt
+	- Town04_Opt
+	- Town05_Opt
+	- Town06_Opt
+	- Town07_Opt
+	- Town10HD_Opt
+- Total
+	- 2 * 18 * 100 * 8 * 20 = 576,000 frames 
+##### Super Resulotion
+- Environment Type
+	- Dynamic
+		- 1 camera car + 30 cars
+	- Static
+		- 1 camera car
+- Camera Car
+	- 12 cameras
+		- 2 resolution front cameras
+			- HR
+				- 1920(W) x 1440(H)
+			- LR
+				- 960(W) x 720(H)
+		- 6 types
+			- Color
+			- Segmentation
+			- Depth
+			- GbufferA
+			- GbufferB
+			- GbufferC
+	- Frames
+		- 100 -> 60
+	- Sequence
+		- 20
+- Town
+	- Town01_Opt
+	- Town02_Opt
+	- Town03_Opt
+	- Town04_Opt
+	- Town05_Opt
+	- Town06_Opt
+	- Town07_Opt
+	- Town10HD_Opt
+- Total
+	- 2 * 12 * 100 * 8 * 20 = 384,000 frames 

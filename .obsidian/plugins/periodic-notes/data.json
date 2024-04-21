@@ -8,8 +8,8 @@
     "folder": ""
   },
   "weekly": {
-    "format": "gggg - MMM - [Week] wo",
-    "template": "",
+    "format": "gggg - [Week] wo - MMM",
+    "template": "- Template/Weekly Journal Template.md",
     "folder": "/Journal",
     "enabled": true
   },

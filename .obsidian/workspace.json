@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2024 - Mar - Week 14th.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/2024 - Mar - Week 14th.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/2024 - Mar - Week 14th.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journal/2024 - Mar - Week 14th.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Journal/2024 - Mar - Week 14th.md",
+                "file": "conflict-files-obsidian-git.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,10 +210,19 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "d57c600b0ca1a824",
+  "active": "e1c2b13d945d09dd",
   "lastOpenFiles": [
-    "Journal/2024 - Mar - Week 13th.md",
+    "Futurewei/Carla Dataset.md",
+    "Futurewei/Evaluation.md",
+    "conflict-files-obsidian-git.md",
     "Journal/2024 - Mar - Week 14th.md",
+    "Research/Super Resolution/Thesis.md",
+    "Journal/2024 - Week 15th - Apr.md",
+    "Journal/2024 - Week 14th - Mar.md",
+    "Journal/2024 - Week 13th - Mar.md",
+    "Futurewei",
+    "- Template/Weekly Journal Template.md",
+    "Journal/2024 - Mar - Week 13th.md",
     "Skill/Python/3. 三方库.md",
     "Research/Super Resolution/论文 IDEA.md",
     "Skill/Deep Learning/理论基础/5. Natural Language Processing (NLP).md",
@@ -235,19 +244,10 @@
     "English/English.md",
     "English/Speaking",
     "Research/Super Resolution/OverNet Lightweight Multi-Scale Super-Resolution with Overscaling Network.pdf",
-    "Research/Compression/Image and Video Compression Basis.md",
     "Research/Compression/slides/C1 - Overview of Video Compr Stds - newest v9.pdf",
     "Research/Compression/slides/F1 - Special Topics v5.pdf",
     "Research/Compression/slides/E3 - Visual Quality - newest v6.pdf",
     "Research/Compression/slides/E2 - Calculation of Coding Efficiency new v3.pdf",
-    "Research/Compression/slides/E1 - Rate-Distortion Theory & Optimization - newest v3.pdf",
-    "- Inbox/1.   I’m a ____    我是一名_____.md",
-    "- Inbox/4.   I want to(wanna)____    我想要____.md",
-    "- Inbox/3.   I’m getting_____     我要______.md",
-    "- Inbox/2.  I’m good at _____    我擅长_____.md",
-    "- Inbox/13.   I’m afraid I____    我恐怕是_____.md",
-    "- Inbox/常用句子.md",
-    "- Inbox/造句公式.md",
     "Skill/Python/库/标准库/io 库 类.canvas",
     "Obsidian-Python-vault 1.3/库/标准库/io 库 类.canvas",
     "- Attachment/Pasted image 20240228121240.png",
