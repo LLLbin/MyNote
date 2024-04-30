@@ -1,0 +1,15 @@
+- 工作
+	- 测试Carla数据集
+		- Anime4K
+		- Adacode
+		- FeMaSR
+		- RealESRGAN
+- 学习
+	- SCU
+		- 准备thesis
+	- 自学
+		- None
+- 生活
+	- 足球比赛（惜败）
+	- 龙王传说（麟月）
+	- 
