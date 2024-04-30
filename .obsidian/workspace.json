@@ -21,14 +21,28 @@
             "id": "249421be1904ba8d",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "TODO List.md"
+                "file": "Journal/2024 - Week 17th - Apr.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c43d8bc4592f790",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/Steps.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO List.md",
+                "file": "- Inbox/Steps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO List.md",
+                "file": "- Inbox/Steps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO List.md"
+                "file": "- Inbox/Steps.md"
               }
             }
           },
@@ -169,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TODO List.md",
+                "file": "- Inbox/Steps.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,13 +233,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "249421be1904ba8d",
+  "active": "6c43d8bc4592f790",
   "lastOpenFiles": [
-    "README.md",
     "Journal/2024 - Week 17th - Apr.md",
+    "- Inbox/Steps.md",
+    "README.md",
+    "TODO List.md",
     "Journal/2024 - Week 16th - Apr.md",
     "Journal/2024 - Week 15th - Apr.md",
-    "TODO List.md",
     "Journal/2024 - Week 14th - Mar.md",
     "Journal/2024 - Week 13th - Mar.md",
     "Futurewei/Evaluation.md",
@@ -249,7 +264,6 @@
     "English/Listening/S1E01.md",
     "Journal/2024 - Week 15th (Apr).md",
     "Journal/2024 - Apr - Week 15th.md",
-    "- Template/Weekly Journal Template.md",
     "- Attachment/Pasted image 20240409132341.png",
     "- Template",
     "- Excalidraw",
