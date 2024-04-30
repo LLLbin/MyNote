@@ -9,6 +9,6 @@
 	- [ ] test on Town04
 	- [ ] test on Video Game
 4. 
-5. Neft代码，
-6. U15生成，video-video，
+5. Neft代码
+6. U15生成，video-video
 7. 
