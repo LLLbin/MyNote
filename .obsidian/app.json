@@ -17,6 +17,9 @@
   "spellcheckDictionary": [
     "GAN",
     "FeMaSR",
-    "Real-ESRQ"
+    "Real-ESRQ",
+    "anime4k",
+    "adacode",
+    "real-esrgan"
   ]
 }
