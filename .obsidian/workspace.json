@@ -21,11 +21,9 @@
             "id": "249421be1904ba8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Journal/2024 - Week 16th - Apr.md",
-                "mode": "source",
-                "source": false
+                "file": "TODO List.md"
               }
             }
           }
@@ -105,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/2024 - Week 16th - Apr.md",
+                "file": "TODO List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/2024 - Week 16th - Apr.md",
+                "file": "TODO List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journal/2024 - Week 16th - Apr.md"
+                "file": "TODO List.md"
               }
             }
           },
@@ -171,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Journal/2024 - Week 16th - Apr.md",
+                "file": "TODO List.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,10 +221,11 @@
   },
   "active": "249421be1904ba8d",
   "lastOpenFiles": [
-    "Journal/2024 - Week 15th - Apr.md",
-    "Journal/2024 - Week 16th - Apr.md",
-    "TODO List.md",
+    "README.md",
     "Journal/2024 - Week 17th - Apr.md",
+    "Journal/2024 - Week 16th - Apr.md",
+    "Journal/2024 - Week 15th - Apr.md",
+    "TODO List.md",
     "Journal/2024 - Week 14th - Mar.md",
     "Journal/2024 - Week 13th - Mar.md",
     "Futurewei/Evaluation.md",
@@ -251,7 +250,6 @@
     "Journal/2024 - Week 15th (Apr).md",
     "Journal/2024 - Apr - Week 15th.md",
     "- Template/Weekly Journal Template.md",
-    "Journal/2024 - 4月 - Week 15周.md",
     "- Attachment/Pasted image 20240409132341.png",
     "- Template",
     "- Excalidraw",

@@ -1,9 +1,13 @@
 - 工作
-	- 
+	- 测试数据集
+		- Finetune Anime4K
+		- Finetune Adacode
+		- Finetune Real-ESRGAN
 - 学习
 	- SCU
-		- 
+		- 学习VQGAN
 	- 自学
-		- 
+		- 摆了
 - 生活
-	- 
+	- 周六到处逛
+	- 足球比赛（小坑）
