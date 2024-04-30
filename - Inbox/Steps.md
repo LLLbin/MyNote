@@ -8,6 +8,7 @@
 3. test models
 	- [ ] test on Town04
 	- [ ] test on Video Game
-4. 要Neft代码。
-5. U15
-6. 
+4. 
+5. Neft代码，
+6. U15生成，video-video，
+7. 
