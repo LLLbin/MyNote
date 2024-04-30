@@ -10,4 +10,4 @@
 	- [ ] test on Video Game
 
 1. Neft代码
-2. U15生成，video-video
+2. U15生成，lq video -> hq video
