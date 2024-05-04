@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skill/Python/标准库/os 文件路径.md",
+                "file": "Skill/Deep Learning/Deep Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill/Python/标准库/os 文件路径.md",
+                "file": "Skill/Deep Learning/Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill/Python/标准库/os 文件路径.md",
+                "file": "Skill/Deep Learning/Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skill/Python/标准库/os 文件路径.md"
+                "file": "Skill/Deep Learning/Deep Learning.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skill/Python/标准库/os 文件路径.md",
+                "file": "Skill/Deep Learning/Deep Learning.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,12 +212,18 @@
   },
   "active": "27b1266681c63c77",
   "lastOpenFiles": [
-    "Skill/Python/标准库/os 库.md",
-    "Skill/Python/标准库/os 进程管理.md",
-    "Skill/Python/标准库/os 文件路径.md",
-    "Skill/Python/标准库/os 环境变量.md",
-    "Skill/Python/Python.md",
+    "Skill/Deep Learning/opencv库/cv2.md",
+    "Skill/Deep Learning/opencv库",
     "Skill/Deep Learning/Deep Learning.md",
+    "Skill/Python/Python.md",
+    "Skill/Python/标准库/pathlib 库.md",
+    "Skill/Python/标准库/pathlib.具体路径类.md",
+    "Skill/Python/标准库/pathlib.纯路径类.md",
+    "Skill/Python/标准库/绝对路径和相对路径.md",
+    "Skill/Python/标准库/os 库.md",
+    "Skill/Python/标准库/os 环境变量.md",
+    "Skill/Python/标准库/os 文件路径.md",
+    "Skill/Python/标准库/os 进程管理.md",
     "- Inbox/lightning.md",
     "Skill/Deep Learning/lightning库/lightning.md",
     "Skill/Deep Learning/pytorch库/pytorch.md",
@@ -233,13 +239,7 @@
     "Skill/Deep Learning/Basic/5. Natural Language Processing (NLP).md",
     "Skill/Deep Learning/Basic/4. Convolutional Neural Networks (CNN).md",
     "Skill/Deep Learning/Basic/3. Structuring Machine Learning.md",
-    "Skill/Deep Learning/Basic/2. Improving Neural Networks.md",
-    "Skill/Deep Learning/Basic/1. Neural Networks.md",
     "Skill/Deep Learning/Basic",
-    "Journal/2024 - Week 17th - Apr.md",
-    "Journal/2024 - Week 16th - Apr.md",
-    "conflict-files-obsidian-git.md",
-    "Futurewei/Carla Dataset.md",
     "Futurewei",
     "English/Speaking/日常词汇.pdf",
     "English/Speaking/日常句子.pdf",
@@ -247,7 +247,6 @@
     "English/Speaking",
     "Research/Super Resolution/OverNet Lightweight Multi-Scale Super-Resolution with Overscaling Network.pdf",
     "Research/Compression/slides/C1 - Overview of Video Compr Stds - newest v9.pdf",
-    "Research/Compression/slides/F1 - Special Topics v5.pdf",
     "Skill/Python/标准库/io 库 类.canvas",
     "Obsidian-Python-vault 1.3/库/标准库/io 库 类.canvas",
     "- Attachment/Pasted image 20240228121240.png",

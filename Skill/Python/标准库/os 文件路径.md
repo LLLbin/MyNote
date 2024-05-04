@@ -17,20 +17,18 @@ os.makedirs(name, mode=0o777, exist_ok=False)
 ##### os.path
 ```python
 os.path.realpath(path)  # 绝对路径 Path.resolve()
+os.path.abspath(path) # 返回绝对路径。PurePath.resolve()
+os.path.getsize(path) # 获取文件大小。Path.stat().st_size 
+
 os.path.exists(path)  # 存在判断 Path.exists()
 os.path.isfile(path)  # 文件判断 Path.is_file()
 os.path.isdir(path)  # 目录判断 Path.is_dir()
-os.path.join(path, *paths)  # 路径拼接 PurePath.joinpath()
-os.path.basename(path)  # 名字 PurePath.name
-
-os.path.split(path) # 拆分路径为目录和文件名的元组。PurePath.parts
-os.path.splitext(path) # 分离路径的扩展名。PurePath.suffix 
-os.path.getsize(path) # 获取文件大小。Path.stat().st_size 
-os.path.abspath(path) # 返回绝对路径。PurePath.resolve()
 
 os.path.dirname(path) # 获取路径的目录部分。PurePath.parent 
-os.path.realpath(path) # 获取绝对路径。PurePath.resolve() 
-os.path.abspath(path) # 获取绝对路径。PurePath.resolve() 
-os.path.expanduser(path) # 将path中包含的"~"和"~user"转换成用户目录。
-PurePath.expanduser()
+os.path.basename(path)  # 名字 PurePath.name
+os.path.split(path) # 拆分路径为目录和文件名的元组。PurePath.parts
+os.path.splitext(path) # 分离路径的扩展名。PurePath.suffix 
+
+os.path.join(path, *paths)  # 路径拼接 PurePath.joinpath()
+
 ```
