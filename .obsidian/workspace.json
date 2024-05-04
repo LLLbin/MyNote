@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "- Inbox/窗口设置.md",
+                "file": "- Inbox/绘制.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Inbox/窗口设置.md",
+                "file": "- Inbox/绘制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Inbox/窗口设置.md",
+                "file": "- Inbox/绘制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Inbox/窗口设置.md"
+                "file": "- Inbox/绘制.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "- Inbox/窗口设置.md",
+                "file": "- Inbox/绘制.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
