@@ -1,6 +1,6 @@
 - [[numpy]] - 高维数组库
 - [[pandas]] - 数据分析库
 - [[matplotlib]] - 矩阵可视化库
-- [[cv2]] - 计算机视觉库
+- [[opencv]] - 计算机视觉库
 - [[pytorch]] - 深度学习库
 - [[lightning]] - 深度学习高级库
