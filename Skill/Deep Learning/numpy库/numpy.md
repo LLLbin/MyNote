@@ -1,4 +1,4 @@
-##### [[numpy 说明]]
+##### [NumPy 文档](https://numpy.org/doc/stable/reference/index.html)
 ##### numpy 数组
 - [[ndarray 类]]
 - [[ndarray 索引与切片]]
