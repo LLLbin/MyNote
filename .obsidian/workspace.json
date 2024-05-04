@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skill/Deep Learning/matplotlib库/绘制窗口.md",
-                "mode": "source",
+                "file": "Skill/Deep Learning/opencv库/cv2.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill/Deep Learning/matplotlib库/绘制窗口.md",
+                "file": "Skill/Deep Learning/opencv库/cv2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill/Deep Learning/matplotlib库/绘制窗口.md",
+                "file": "Skill/Deep Learning/opencv库/cv2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skill/Deep Learning/matplotlib库/绘制窗口.md"
+                "file": "Skill/Deep Learning/opencv库/cv2.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skill/Deep Learning/matplotlib库/绘制窗口.md",
+                "file": "Skill/Deep Learning/opencv库/cv2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,19 +212,20 @@
   },
   "active": "27b1266681c63c77",
   "lastOpenFiles": [
-    "Skill/Deep Learning/opencv库/读取与显示.md",
+    "Skill/Deep Learning/Deep Learning.md",
+    "Skill/Deep Learning/lightning库/lightning.md",
+    "Skill/Deep Learning/pytorch库/pytorch.md",
+    "Skill/Deep Learning/opencv库/cv2.md",
+    "Skill/Deep Learning/matplotlib库/matplotlib.md",
+    "Skill/Deep Learning/pandas库/pandas.md",
+    "Skill/Deep Learning/numpy库/numpy.md",
+    "Skill/Deep Learning/matplotlib库/图形绘制.md",
     "Skill/Deep Learning/matplotlib库/窗口设置.md",
+    "Skill/Deep Learning/opencv库/读取与显示.md",
     "Skill/Deep Learning/opencv库/基本处理.md",
     "Skill/Deep Learning/opencv库/绘制图形.md",
-    "Skill/Deep Learning/matplotlib库/绘制窗口.md",
-    "Skill/Deep Learning/matplotlib库/matplotlib.md",
-    "Skill/Deep Learning/Deep Learning.md",
-    "Skill/Deep Learning/opencv库/cv2.md",
-    "Skill/Deep Learning/numpy库/numpy.md",
     "Skill/Deep Learning/numpy库/ndarray 创建.md",
-    "Skill/Deep Learning/lightning库/lightning.md",
     "Skill/Deep Learning/matplotlib库",
-    "Skill/Deep Learning/pandas库/pandas.md",
     "- Inbox/().md",
     "Skill/Deep Learning/numpy库/numpy 说明.md",
     "Skill/Deep Learning/opencv库",
@@ -238,7 +239,6 @@
     "Skill/Python/标准库/os 文件路径.md",
     "Skill/Python/标准库/os 进程管理.md",
     "- Inbox/lightning.md",
-    "Skill/Deep Learning/pytorch库/pytorch.md",
     "Skill/Deep Learning/lightning库",
     "Skill/Python/3. 三方库.md",
     "Skill/Deep Learning/Basic",
