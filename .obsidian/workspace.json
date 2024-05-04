@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "- Inbox/基本处理.md",
+                "file": "- Inbox/窗口设置.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Inbox/基本处理.md",
+                "file": "- Inbox/窗口设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Inbox/基本处理.md",
+                "file": "- Inbox/窗口设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Inbox/基本处理.md"
+                "file": "- Inbox/窗口设置.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "- Inbox/基本处理.md",
+                "file": "- Inbox/窗口设置.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,14 +212,17 @@
   },
   "active": "27b1266681c63c77",
   "lastOpenFiles": [
+    "Skill/Deep Learning/matplotlib库/matplotlib.md",
+    "- Inbox/窗口设置.md",
+    "- Inbox/绘制.md",
+    "Skill/Deep Learning/Deep Learning.md",
     "Skill/Deep Learning/opencv库/cv2.md",
+    "- Inbox/绘制图形.md",
     "- Inbox/基本处理.md",
     "- Inbox/读取与显示.md",
     "Skill/Deep Learning/numpy库/numpy.md",
-    "Skill/Deep Learning/Deep Learning.md",
     "Skill/Deep Learning/numpy库/ndarray 创建.md",
     "Skill/Deep Learning/lightning库/lightning.md",
-    "Skill/Deep Learning/matplotlib库/matplotlib.md",
     "Skill/Deep Learning/matplotlib库",
     "Skill/Deep Learning/pandas库/pandas.md",
     "- Inbox/().md",
@@ -238,9 +241,6 @@
     "Skill/Deep Learning/pytorch库/pytorch.md",
     "Skill/Deep Learning/lightning库",
     "Skill/Python/3. 三方库.md",
-    "Skill/Python/标准库/安全队列.md",
-    "Skill/Python/python/标准库.md",
-    "Skill/Python/2. 标准库.md",
     "Skill/Deep Learning/Basic",
     "Futurewei",
     "English/Speaking/日常词汇.pdf",
