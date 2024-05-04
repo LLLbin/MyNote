@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skill/Python/1. Python.md",
+                "file": "Skill/Python/3. 三方库.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill/Python/1. Python.md",
+                "file": "Skill/Python/3. 三方库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill/Python/1. Python.md",
+                "file": "Skill/Python/3. 三方库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skill/Python/1. Python.md"
+                "file": "Skill/Python/3. 三方库.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skill/Python/1. Python.md",
+                "file": "Skill/Python/3. 三方库.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,11 +210,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "b74128e47b8c397d",
+  "active": "d57c600b0ca1a824",
   "lastOpenFiles": [
-    "Skill/Python/2. 标准库.md",
-    "Skill/Python/3. 三方库.md",
     "Skill/Python/1. Python.md",
+    "Skill/Python/2. 标准库.md",
+    "Skill/Python/python/安装.md",
+    "Steps.md",
+    "- Inbox/标准库.md",
+    "Skill/Python/3. 三方库.md",
     "Skill/Deep Learning/Basic/5. Natural Language Processing (NLP).md",
     "Skill/Deep Learning/Basic/4. Convolutional Neural Networks (CNN).md",
     "Skill/Deep Learning/Basic/3. Structuring Machine Learning.md",
@@ -223,7 +226,6 @@
     "Skill/Deep Learning/Basic",
     "Journal/2024 - Week 17th - Apr.md",
     "Journal/2024 - Week 16th - Apr.md",
-    "- Inbox/Steps.md",
     "conflict-files-obsidian-git.md",
     "Futurewei/Carla Dataset.md",
     "Futurewei/Evaluation.md",
@@ -238,8 +240,6 @@
     "Research/Super Resolution/论文 IDEA.md",
     "Skill/Deep Learning/理论基础/5. Natural Language Processing (NLP).md",
     "Skill/Deep Learning/理论基础/3. Structuring Machine Learning.md",
-    "Skill/Deep Learning/理论基础/1. Neural Networks.md",
-    "Skill/Deep Learning/理论基础/2. Improving Neural Networks.md",
     "English/Speaking/日常词汇.pdf",
     "English/Speaking/日常句子.pdf",
     "English/Speaking/日常造句.pdf",
