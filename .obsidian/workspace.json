@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md",
-                "mode": "preview",
+                "file": "- Inbox/PIL.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md",
+                "file": "- Inbox/PIL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md",
+                "file": "- Inbox/PIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md"
+                "file": "- Inbox/PIL.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md",
+                "file": "- Inbox/PIL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,8 +212,9 @@
   },
   "active": "27b1266681c63c77",
   "lastOpenFiles": [
-    "Skill/Deep Learning/numpy库/numpy.md",
     "Skill/Deep Learning/Deep Learning.md",
+    "- Inbox/PIL.md",
+    "Skill/Deep Learning/numpy库/numpy.md",
     "Skill/Deep Learning/opencv库/opencv.md",
     "Skill/Deep Learning/pytorch库/pytorch.md",
     "Skill/Deep Learning/opencv库/基本处理.md",
@@ -240,7 +241,6 @@
     "Skill/Python/标准库/os 进程管理.md",
     "- Inbox/lightning.md",
     "Skill/Deep Learning/lightning库",
-    "Skill/Python/3. 三方库.md",
     "Skill/Deep Learning/Basic",
     "Futurewei",
     "English/Speaking/日常词汇.pdf",
