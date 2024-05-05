@@ -13,7 +13,103 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "- Inbox/PIL.md",
+                "file": "Skill/Deep Learning/PIL库/PIL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3669a46fea74d95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/绘制工具.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd753e663f8a1741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/图像滤镜和增强.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d0ceefbc98df397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/图像合并和分割.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65f7d2c218cbdf5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/图像旋转和翻转.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b117ac111a8fa47e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/图像大小和裁剪.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1da5cb8d4476981a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/图像转换.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30931311c8edb6ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/获取图像信息.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1305990dd41e28f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/打开和保存图像.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Inbox/PIL.md",
+                "file": "Skill/Deep Learning/PIL库/PIL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Inbox/PIL.md",
+                "file": "Skill/Deep Learning/PIL库/PIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Inbox/PIL.md"
+                "file": "Skill/Deep Learning/PIL库/PIL.md"
               }
             }
           },
@@ -160,7 +256,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "- Inbox/PIL.md",
+                "file": "Skill/Deep Learning/PIL库/PIL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,8 +308,18 @@
   },
   "active": "27b1266681c63c77",
   "lastOpenFiles": [
+    "- Inbox/绘制工具.md",
+    "Skill/Deep Learning/PIL库/PIL.md",
+    "- Inbox/图像滤镜和增强.md",
+    "- Inbox/图像合并和分割.md",
+    "- Inbox/图像旋转和翻转.md",
+    "- Inbox/打开和保存图像.md",
+    "- Inbox/获取图像信息.md",
+    "- Inbox/图像转换.md",
+    "- Inbox/图像大小和裁剪.md",
     "Skill/Deep Learning/Deep Learning.md",
-    "- Inbox/PIL.md",
+    "Skill/Deep Learning/PIL库",
+    "Skill/Deep Learning/未命名.md",
     "Skill/Deep Learning/numpy库/numpy.md",
     "Skill/Deep Learning/opencv库/opencv.md",
     "Skill/Deep Learning/pytorch库/pytorch.md",
@@ -231,15 +337,6 @@
     "Skill/Deep Learning/numpy库/numpy 说明.md",
     "Skill/Deep Learning/opencv库",
     "Skill/Python/Python.md",
-    "Skill/Python/标准库/pathlib 库.md",
-    "Skill/Python/标准库/pathlib.具体路径类.md",
-    "Skill/Python/标准库/pathlib.纯路径类.md",
-    "Skill/Python/标准库/绝对路径和相对路径.md",
-    "Skill/Python/标准库/os 库.md",
-    "Skill/Python/标准库/os 环境变量.md",
-    "Skill/Python/标准库/os 文件路径.md",
-    "Skill/Python/标准库/os 进程管理.md",
-    "- Inbox/lightning.md",
     "Skill/Deep Learning/lightning库",
     "Skill/Deep Learning/Basic",
     "Futurewei",
@@ -247,7 +344,6 @@
     "English/Speaking/日常句子.pdf",
     "English/Speaking/日常造句.pdf",
     "English/Speaking",
-    "Research/Super Resolution/OverNet Lightweight Multi-Scale Super-Resolution with Overscaling Network.pdf",
     "Skill/Python/标准库/io 库 类.canvas",
     "Obsidian-Python-vault 1.3/库/标准库/io 库 类.canvas",
     "- Attachment/Pasted image 20240228121240.png",
