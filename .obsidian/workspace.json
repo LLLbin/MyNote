@@ -4,112 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2a347d1a08b124b0",
+        "id": "94c65552588ae2fb",
         "type": "tabs",
         "children": [
           {
-            "id": "27b1266681c63c77",
+            "id": "2c058e9f3cd074a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Skill/Deep Learning/PIL库/PIL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3669a46fea74d95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/绘制工具.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd753e663f8a1741",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/图像滤镜和增强.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d0ceefbc98df397",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/图像合并和分割.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "65f7d2c218cbdf5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/图像旋转和翻转.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b117ac111a8fa47e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/图像大小和裁剪.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1da5cb8d4476981a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/图像转换.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30931311c8edb6ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/获取图像信息.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1305990dd41e28f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/打开和保存图像.md",
                 "mode": "source",
                 "source": false
               }
@@ -306,18 +210,18 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "27b1266681c63c77",
+  "active": "2c058e9f3cd074a7",
   "lastOpenFiles": [
-    "- Inbox/绘制工具.md",
-    "Skill/Deep Learning/PIL库/PIL.md",
-    "- Inbox/图像滤镜和增强.md",
-    "- Inbox/图像合并和分割.md",
-    "- Inbox/图像旋转和翻转.md",
-    "- Inbox/打开和保存图像.md",
-    "- Inbox/获取图像信息.md",
-    "- Inbox/图像转换.md",
-    "- Inbox/图像大小和裁剪.md",
     "Skill/Deep Learning/Deep Learning.md",
+    "Skill/Deep Learning/PIL库/图像打开和保存.md",
+    "Skill/Deep Learning/PIL库/图像的信息获取.md",
+    "Skill/Deep Learning/PIL库/图像大小和裁剪.md",
+    "Skill/Deep Learning/PIL库/PIL.md",
+    "Skill/Deep Learning/PIL库/图像模式的转换.md",
+    "Skill/Deep Learning/PIL库/图像绘制的工具.md",
+    "Skill/Deep Learning/PIL库/图像滤镜和增强.md",
+    "Skill/Deep Learning/PIL库/图像合并和分割.md",
+    "Skill/Deep Learning/PIL库/图像旋转和翻转.md",
     "Skill/Deep Learning/PIL库",
     "Skill/Deep Learning/未命名.md",
     "Skill/Deep Learning/numpy库/numpy.md",
