@@ -1,7 +1,17 @@
+##### 0. 获取图像信息
+```python
+# 获取图像尺寸
+print(img.size)
+# 获取图像模式
+print(img.mode)
+# 获取图像格式
+print("Format:", img.format)
+```
 ##### 1. 打开和保存图像
 ```python
-# 打开图像
 from PIL import Image
+
+# 打开图像
 img = Image.open("path/to/image.jpg")
 # 保存图像
 img.save("path/to/output.jpg", format='JPEG')
@@ -10,7 +20,20 @@ img.save("path/to/output.jpg", format='JPEG')
 ##### 2. 图像转换
 ```python
 # 转换图像到灰度模式
-img = img.convert('L')
+# 'L' 表示灰度模式
+gray_img = img.convert('L')
+
+# 转换图像到RGB模式
+# 'RGB' 用于全彩色图像（红，绿，蓝）
+rgb_img = img.convert('RGB')
+
+# 转换图像到RGBA模式
+# 'RGBA' 添加了透明通道（红，绿，蓝，透明度）
+rgba_img = img.convert('RGBA')
+
+# 转换图像到1位像素模式
+# '1' 二值图像，即像素非黑即白
+one_bit_img = img.convert('1')
 ```
 
 ##### 3. 图像大小和裁剪
@@ -57,13 +80,3 @@ draw = ImageDraw.Draw(img)
 draw.line((0, 0, 100, 100), fill="blue")
 draw.text((10, 10), "Hello World", fill="green")
 ```
-
-##### 8. 获取图像信息
-```python
-# 获取图像尺寸
-print(img.size)
-# 获取图像模式
-print(img.mode)
-```
-
-以上就是一些基本的PIL库操作，每个示例都可以直接运行，只需要提供正确的文件路径和参数。
