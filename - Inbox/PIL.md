@@ -1,23 +1,4 @@
-##### 0. 获取图像信息
-```python
-from PIL import Image
-
-# 加载图像
-img = Image.open("path/to/image.jpg")
-
-# 获取图像尺寸
-# size属性返回一个元组，包含图像的宽度和高度（width, height）
-print("Size:", img.size)
-
-# 获取图像模式
-# mode属性返回一个字符串，描述图像的颜色组成模式，常见的如 'RGB'、'L' (灰度) 等
-print("Mode:", img.mode)
-
-# 获取图像格式
-# format属性返回图像的格式，如 'JPEG'、'PNG' 等，如果图像不是从文件读取的，则可能为 None
-print("Format:", img.format)
-```
-##### 1. 打开和保存图像
+##### 0. 打开和保存图像
 ```python
 from PIL import Image
 
@@ -51,6 +32,20 @@ img.save("path/to/output_transparent.png", 'PNG')
 img.save("path/to/output_optimized.png", 'PNG', optimize=True)
 ```
 
+##### 1. 获取图像信息
+```python
+# 获取图像尺寸
+# size属性返回一个元组，包含图像的宽度和高度（width, height）
+print("Size:", img.size)
+
+# 获取图像模式
+# mode属性返回一个字符串，描述图像的颜色组成模式，常见的如 'RGB'、'L' (灰度) 等
+print("Mode:", img.mode)
+
+# 获取图像格式
+# format属性返回图像的格式，如 'JPEG'、'PNG' 等，如果图像不是从文件读取的，则可能为 None
+print("Format:", img.format)
+```
 ##### 2. 图像转换
 ```python
 # 转换图像到灰度模式
@@ -73,17 +68,43 @@ one_bit_img = img.convert('1')
 ##### 3. 图像大小和裁剪
 ```python
 # 改变图像大小
+# resize函数用于调整图像的尺寸
+# 参数为一个元组，指定新的宽度和高度
 resized_img = img.resize((200, 200))
+
+# 保持比例缩放图像
+# thumbnail方法调整图像大小，保持原有宽高比，尺寸不会超过指定的宽度和高度
+img.thumbnail((200, 200))  # 直接修改img对象
+
 # 裁剪图像
+# crop函数用于裁剪图像
+# 参数是一个四元组，定义裁剪区域的左、上、右、下坐标
 cropped_img = img.crop((100, 100, 400, 400))
 ```
 
 ##### 4. 图像旋转和翻转
 ```python
-# 旋转图像90度
+# 旋转图像
+# rotate方法用于旋转图像
+# 参数1: angle指定旋转的角度，正值为逆时针旋转，负值为顺时针旋转
+# 参数2: expand如果设置为True，会扩展图像的尺寸以适应整个旋转后的图像
 rotated_img = img.rotate(90, expand=True)
+
+# 逆时针旋转180度，不扩展图像
+rotated_img_180 = img.rotate(180)
+
 # 水平翻转图像
+# transpose方法用于翻转图像
+# Image.FLIP_LEFT_RIGHT为水平翻转
 flipped_img = img.transpose(Image.FLIP_LEFT_RIGHT)
+
+# 垂直翻转图像
+# Image.FLIP_TOP_BOTTOM为垂直翻转
+flipped_img_vertical = img.transpose(Image.FLIP_TOP_BOTTOM)
+
+# 旋转并保持原始尺寸
+# expand设为False时，旋转的图像会被裁剪到原图大小
+rotated_no_expand = img.rotate(45, expand=False)
 ```
 
 ##### 5. 图像合并和分割
@@ -96,10 +117,7 @@ merged_img = Image.merge("RGB", (b, g, r))
 
 ##### 6. 图像滤镜和增强
 ```python
-from PIL import Image, ImageFilter, ImageEnhance
-
-# 加载图像
-img = Image.open("path/to/image.jpg")
+from PIL import 
 
 # 应用模糊滤镜
 # BLUR是一个简单的平均模糊滤镜
@@ -108,17 +126,6 @@ blurred_img = img.filter(ImageFilter.BLUR)
 # 应用更强的高斯模糊滤镜
 # GAUSSIAN_BLUR用于创建高斯模糊效果，可以传入radius参数来指定模糊半径
 gaussian_blur_img = img.filter(ImageFilter.GaussianBlur(radius=5))
-
-# 增强图像对比度
-# Contrast创建对比度增强对象，enhance方法用于应用增强效果
-# 参数factor > 1增加对比度，factor = 1原始图像，factor < 1减少对比度
-enhancer = ImageEnhance.Contrast(img)
-enhanced_img = enhancer.enhance(2.0)  # 对比度提高2倍
-
-# 增强图像亮度
-# Brightness同样创建亮度增强对象，enhance方法应用亮度调整
-brightness_enhancer = ImageEnhance.Brightness(img)
-brightened_img = brightness_enhancer.enhance(1.5)  # 亮度提高50%
 
 # 应用锐化滤镜
 # SHARPEN滤镜增加图像的清晰度
@@ -131,15 +138,21 @@ edge_enhanced_img = img.filter(ImageFilter.EDGE_ENHANCE)
 # 应用细节增强滤镜
 # DETAIL滤镜增强图像细节
 detailed_img = img.filter(ImageFilter.DETAIL)
+
+# 增强图像对比度
+# Contrast创建对比度增强对象，enhance方法用于应用增强效果
+# 参数factor > 1增加对比度，factor = 1原始图像，factor < 1减少对比度
+enhancer = ImageEnhance.Contrast(img)
+enhanced_img = enhancer.enhance(2.0)  # 对比度提高2倍
+
+# 增强图像亮度
+# Brightness同样创建亮度增强对象，enhance方法应用亮度调整
+brightness_enhancer = ImageEnhance.Brightness(img)
+brightened_img = brightness_enhancer.enhance(1.5)  # 亮度提高50%
 ```
 
 ##### 7. 绘制工具
 ```python
-from PIL import Image, ImageDraw
-
-# 加载图像
-img = Image.open("path/to/image.jpg")
-
 # 创建一个绘制对象
 draw = ImageDraw.Draw(img)
 
@@ -166,7 +179,4 @@ draw.arc((200, 200, 300, 300), start=0, end=180, fill="black")
 # 绘制多边形
 # polygon接收点的列表，可选的填充和轮廓颜色
 draw.polygon([(400, 200), (300, 300), (500, 300)], fill="purple", outline="white")
-
-# 保存修改后的图像
-img.save("path/to/drawn_image.jpg")
 ```
