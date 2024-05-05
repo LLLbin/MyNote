@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/PIL.md",
+                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/PIL.md",
+                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/PIL.md",
+                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/PIL.md"
+                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/PIL.md",
+                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,13 +212,13 @@
   },
   "active": "2c058e9f3cd074a7",
   "lastOpenFiles": [
-    "Skill/Deep Learning/Deep Learning.md",
-    "Skill/Deep Learning/PIL库/图像打开和保存.md",
-    "Skill/Deep Learning/PIL库/图像的信息获取.md",
-    "Skill/Deep Learning/PIL库/图像大小和裁剪.md",
     "Skill/Deep Learning/PIL库/PIL.md",
-    "Skill/Deep Learning/PIL库/图像模式的转换.md",
+    "Skill/Deep Learning/PIL库/图像的信息获取.md",
     "Skill/Deep Learning/PIL库/图像绘制的工具.md",
+    "Skill/Deep Learning/PIL库/图像打开和保存.md",
+    "Skill/Deep Learning/Deep Learning.md",
+    "Skill/Deep Learning/PIL库/图像大小和裁剪.md",
+    "Skill/Deep Learning/PIL库/图像模式的转换.md",
     "Skill/Deep Learning/PIL库/图像滤镜和增强.md",
     "Skill/Deep Learning/PIL库/图像合并和分割.md",
     "Skill/Deep Learning/PIL库/图像旋转和翻转.md",
