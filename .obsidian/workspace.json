@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "94c65552588ae2fb",
+        "id": "f667ab08d75ee213",
         "type": "tabs",
         "children": [
           {
-            "id": "2c058e9f3cd074a7",
+            "id": "ae6b1acb201ddd66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md",
+                "file": "Futurewei/Evaluation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9967c3b68345202",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/LaTeX  in OverLeaf.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md",
+                "file": "- Inbox/LaTeX  in OverLeaf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md",
+                "file": "- Inbox/LaTeX  in OverLeaf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md"
+                "file": "- Inbox/LaTeX  in OverLeaf.md"
               }
             }
           },
@@ -160,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skill/Deep Learning/PIL库/图像打开和保存.md",
+                "file": "- Inbox/LaTeX  in OverLeaf.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,56 +212,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2c058e9f3cd074a7",
+  "active": "d9967c3b68345202",
   "lastOpenFiles": [
-    "Skill/Deep Learning/PIL库/PIL.md",
-    "Skill/Deep Learning/PIL库/图像的信息获取.md",
-    "Skill/Deep Learning/PIL库/图像绘制的工具.md",
-    "Skill/Deep Learning/PIL库/图像打开和保存.md",
-    "Skill/Deep Learning/Deep Learning.md",
-    "Skill/Deep Learning/PIL库/图像大小和裁剪.md",
-    "Skill/Deep Learning/PIL库/图像模式的转换.md",
-    "Skill/Deep Learning/PIL库/图像滤镜和增强.md",
-    "Skill/Deep Learning/PIL库/图像合并和分割.md",
-    "Skill/Deep Learning/PIL库/图像旋转和翻转.md",
-    "Skill/Deep Learning/PIL库",
-    "Skill/Deep Learning/未命名.md",
-    "Skill/Deep Learning/numpy库/numpy.md",
-    "Skill/Deep Learning/opencv库/opencv.md",
-    "Skill/Deep Learning/pytorch库/pytorch.md",
-    "Skill/Deep Learning/opencv库/基本处理.md",
-    "Skill/Deep Learning/opencv库/读取与显示.md",
-    "Skill/Deep Learning/lightning库/lightning.md",
-    "Skill/Deep Learning/matplotlib库/matplotlib.md",
-    "Skill/Deep Learning/pandas库/pandas.md",
-    "Skill/Deep Learning/matplotlib库/图形绘制.md",
-    "Skill/Deep Learning/matplotlib库/窗口设置.md",
-    "Skill/Deep Learning/opencv库/绘制图形.md",
-    "Skill/Deep Learning/numpy库/ndarray 创建.md",
-    "Skill/Deep Learning/matplotlib库",
-    "- Inbox/().md",
-    "Skill/Deep Learning/numpy库/numpy 说明.md",
-    "Skill/Deep Learning/opencv库",
-    "Skill/Python/Python.md",
-    "Skill/Deep Learning/lightning库",
-    "Skill/Deep Learning/Basic",
+    "Futurewei/Evaluation.md",
+    "- Inbox/LaTeX  in OverLeaf.md",
+    "Steps.md",
+    "Skill/Python/标准库/非阻塞.md",
+    "Skill/Python/标准库/阻塞.md",
+    "Skill/Python/标准库/连接到百度.md",
+    "Skill/Python/标准库/进程间共享内存.md",
+    "Skill/Python/标准库/进程池下载图片.md",
+    "Skill/Python/标准库/进程.md",
+    "Skill/Python/标准库/认识正则表达式.md",
+    "Skill/Python/标准库/认识 url.md",
+    "Skill/Python/标准库/认识 socket.md",
+    "Skill/Python/标准库/认识 socket 库.md",
+    "Skill/Python/标准库/认识 io.md",
+    "Skill/Python/标准库/认识 http.md",
+    "Skill/Python/标准库/认识 asyncio 库.md",
+    "Skill/Python/标准库/继承和实例化.md",
+    "Skill/Python/标准库/绝对路径和相对路径.md",
+    "Skill/Python/标准库/终端运行Python脚本.md",
+    "Skill/Python/标准库/线程池下载图片.md",
+    "Skill/Python/标准库/线程.md",
+    "Skill/Python/标准库/简单异步爬虫示例.md",
+    "Skill/Python/标准库/环境变量.md",
+    "Skill/Python/标准库/消息队列.md",
+    "Skill/Python/标准库/流读写.md",
+    "Skill/Python/标准库/异步.md",
+    "Skill/Python/标准库/io 库 类.canvas",
+    "Skill/Python/标准库",
     "Futurewei",
+    "- Template",
+    "- Attachment",
+    "- Excalidraw",
+    "- Inbox",
     "English/Speaking/日常词汇.pdf",
     "English/Speaking/日常句子.pdf",
     "English/Speaking/日常造句.pdf",
     "English/Speaking",
-    "Skill/Python/标准库/io 库 类.canvas",
+    "Skill/Python/库/标准库/io 库 类.canvas",
     "Obsidian-Python-vault 1.3/库/标准库/io 库 类.canvas",
     "- Attachment/Pasted image 20240228121240.png",
     "未命名.canvas",
