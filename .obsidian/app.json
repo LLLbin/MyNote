@@ -20,6 +20,7 @@
     "Real-ESRQ",
     "anime4k",
     "adacode",
-    "real-esrgan"
+    "real-esrgan",
+    "其次，虽然GAN在生成细节纹理方面具有很大潜力，但其训练过程容易出现不稳定的情况，导致生成图像中出现伪影，影响图像质量"
   ]
 }
