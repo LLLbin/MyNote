@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Chapter 2.md",
+                "file": "- Inbox/222.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Chapter 2.md",
+                "file": "- Inbox/222.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Chapter 2.md"
+                "file": "- Inbox/222.md"
               }
             }
           },
@@ -180,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Thesis/Chapter 2.md",
+                "file": "- Inbox/222.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -230,10 +230,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2c058e9f3cd074a7",
+  "active": "5dd3b0bc355e973f",
   "lastOpenFiles": [
-    "- Inbox/222.md",
     "Thesis/Chapter 2.md",
+    "- Inbox/222.md",
     "Thesis/Chapter 1.md",
     "TODO List.md",
     "Futurewei/Carla Dataset.md",
