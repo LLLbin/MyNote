@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "872df694cb9f43c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dd3b0bc355e973f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "- Inbox/222.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 247.5
   },
   "right": {
     "id": "56e95fde4bd41373",
@@ -94,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Chapter 2.md",
+                "file": "- Inbox/222.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Chapter 2.md",
+                "file": "- Inbox/222.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Chapter 2.md"
+                "file": "- Inbox/222.md"
               }
             }
           },
@@ -160,7 +178,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Thesis/Chapter 2.md",
+                "file": "- Inbox/222.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,10 +228,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2c058e9f3cd074a7",
+  "active": "5dd3b0bc355e973f",
   "lastOpenFiles": [
-    "TODO List.md",
     "Thesis/Chapter 2.md",
+    "- Inbox/222.md",
+    "TODO List.md",
     "Thesis/Chapter 1.md",
     "Futurewei/Carla Dataset.md",
     "Thesis",
@@ -239,7 +258,6 @@
     "Skill/Deep Learning/lightning库/lightning.md",
     "Skill/Deep Learning/matplotlib库/matplotlib.md",
     "Skill/Deep Learning/pandas库/pandas.md",
-    "Skill/Deep Learning/matplotlib库/图形绘制.md",
     "Skill/Deep Learning/matplotlib库",
     "Skill/Deep Learning/opencv库",
     "Skill/Deep Learning/lightning库",
