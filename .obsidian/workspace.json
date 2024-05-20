@@ -6,6 +6,7 @@
       {
         "id": "94c65552588ae2fb",
         "type": "tabs",
+        "dimension": 38.27683615819209,
         "children": [
           {
             "id": "2c058e9f3cd074a7",
@@ -24,6 +25,7 @@
       {
         "id": "872df694cb9f43c7",
         "type": "tabs",
+        "dimension": 61.7231638418079,
         "children": [
           {
             "id": "5dd3b0bc355e973f",
@@ -231,9 +233,9 @@
   "active": "5dd3b0bc355e973f",
   "lastOpenFiles": [
     "Thesis/Chapter 2.md",
+    "Thesis/Chapter 1.md",
     "- Inbox/222.md",
     "TODO List.md",
-    "Thesis/Chapter 1.md",
     "Futurewei/Carla Dataset.md",
     "Thesis",
     "README.md",
