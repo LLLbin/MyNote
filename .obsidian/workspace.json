@@ -6,7 +6,6 @@
       {
         "id": "94c65552588ae2fb",
         "type": "tabs",
-        "dimension": 50.706214689265536,
         "children": [
           {
             "id": "2c058e9f3cd074a7",
@@ -15,25 +14,6 @@
               "type": "markdown",
               "state": {
                 "file": "Thesis/Chapter 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "872df694cb9f43c7",
-        "type": "tabs",
-        "dimension": 49.293785310734464,
-        "children": [
-          {
-            "id": "5dd3b0bc355e973f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/222.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 297.5
   },
   "right": {
     "id": "56e95fde4bd41373",
@@ -114,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Inbox/222.md",
+                "file": "Thesis/Chapter 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Inbox/222.md",
+                "file": "Thesis/Chapter 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Inbox/222.md"
+                "file": "Thesis/Chapter 2.md"
               }
             }
           },
@@ -180,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "- Inbox/222.md",
+                "file": "Thesis/Chapter 2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,26 +199,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5dd3b0bc355e973f",
+  "active": "2c058e9f3cd074a7",
   "lastOpenFiles": [
-    "Thesis/Chapter 2.md",
-    "- Inbox/222.md",
     "Thesis/Chapter 1.md",
-    "TODO List.md",
     "Futurewei/Carla Dataset.md",
+    "- Inbox/222.md",
+    "Thesis/Chapter 2.md",
     "Thesis",
     "README.md",
+    "TODO List.md",
     "Research/Super Resolution/Thesis.md",
     "Skill/Deep Learning/PIL库/图像打开和保存.md",
     "Skill/Deep Learning/PIL库/PIL.md",
