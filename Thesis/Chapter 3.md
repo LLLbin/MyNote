@@ -1,1 +1,1 @@
-本文提出的用于超分辨率的模型是基于VQGAN来实现的，整个的网络架构如图figure2-1所示。这个VQSRGAN模型主要由六部分组成，分别为Encoder，Codebook，Decoder，Feature Extractor，Attention Fused Module，还有Discriminator。其中Encoder，Codebook，Decoder和Discriminator为VQGAN的backbone。
+本文提出的用于超分辨率的模型是基于VQGAN来实现的，整个的网络架构如图figure2-1所示。这个VQSRGAN模型主要由六部分组成，分别为Encoder，Codebook，Decoder，Feature Extractor，Attention Fused Module，还有Discriminator。
