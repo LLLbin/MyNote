@@ -13,7 +13,7 @@
 			- Segmentation
 			- Depth
 	- Frames
-		- 100 -> 60
+		-  60
 	- Sequence
 		- 20
 - Town
@@ -26,7 +26,7 @@
 	- Town07_Opt
 	- Town10HD_Opt
 - Total
-	- 2 * 18 * 100 * 8 * 20 = 576,000 frames 
+	- 2 * 18 * 60 * 8 * 20 = 576,000 frames 
 ##### Super Resulotion
 - Environment Type
 	- Dynamic
@@ -41,7 +41,7 @@
 			- LR
 				- 960(W) x 720(H)
 		- 6 types
-			- Color
+			- Color( RGB)
 			- Segmentation
 			- Depth
 			- GbufferA
@@ -61,4 +61,4 @@
 	- Town07_Opt
 	- Town10HD_Opt
 - Total
-	- 2 * 12 * 100 * 8 * 20 = 384,000 frames 
+	- 2 * 12 * 60 * 8 * 20 = 384,000 frames 
