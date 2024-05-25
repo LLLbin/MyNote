@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2d687170f6d65ab8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis/Abstract CN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ae73b57e8cbe6be1",
@@ -31,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/Abstract CN.md",
+                "file": "Thesis/Abstract EN.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Abstract CN.md",
+                "file": "Thesis/Abstract EN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Abstract CN.md",
+                "file": "Thesis/Abstract EN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Abstract CN.md"
+                "file": "Thesis/Abstract EN.md"
               }
             }
           },
@@ -178,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Thesis/Abstract CN.md",
+                "file": "Thesis/Abstract EN.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -230,8 +243,9 @@
   },
   "active": "8f4124c871626f41",
   "lastOpenFiles": [
-    "Thesis/Chapter 1 CN.md",
     "Thesis/Abstract CN.md",
+    "Thesis/Abstract EN.md",
+    "Thesis/Chapter 1 CN.md",
     "Thesis/Chapter 1 EN.md",
     "Thesis/Chapter 2 CN.md",
     "Thesis/Chapter 3 EN.md",
@@ -257,7 +271,6 @@
     "Skill/Deep Learning/未命名.md",
     "Skill/Deep Learning/numpy库/numpy.md",
     "Skill/Deep Learning/opencv库/opencv.md",
-    "Skill/Deep Learning/pytorch库/pytorch.md",
     "Skill/Deep Learning/matplotlib库",
     "Skill/Deep Learning/opencv库",
     "Skill/Deep Learning/lightning库",
