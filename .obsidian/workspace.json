@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2d687170f6d65ab8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Thesis/Abstract CN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "ae73b57e8cbe6be1",
@@ -44,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/Abstract EN.md",
+                "file": "Thesis/Chapter 1 EN.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Abstract EN.md",
+                "file": "Thesis/Chapter 1 CN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Abstract EN.md",
+                "file": "Thesis/Chapter 1 CN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Abstract EN.md"
+                "file": "Thesis/Chapter 1 CN.md"
               }
             }
           },
@@ -191,7 +178,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Thesis/Abstract EN.md",
+                "file": "Thesis/Chapter 1 CN.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -241,12 +228,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "8f4124c871626f41",
+  "active": "2c058e9f3cd074a7",
   "lastOpenFiles": [
     "Thesis/Abstract CN.md",
-    "Thesis/Abstract EN.md",
-    "Thesis/Chapter 1 CN.md",
     "Thesis/Chapter 1 EN.md",
+    "Thesis/Chapter 1 CN.md",
+    "Thesis/Abstract EN.md",
     "Thesis/Chapter 2 CN.md",
     "Thesis/Chapter 3 EN.md",
     "Thesis/Chapter 3 CN.md",
