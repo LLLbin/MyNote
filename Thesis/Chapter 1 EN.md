@@ -16,7 +16,7 @@ Blind super-resolution addresses the challenge of unknown degradation models and
 To address the problem of blind super-resolution with unknown degradation models, the main contributions of this study are as follows:
 
 1. The paper propose a novel super-resolution model based on VQGAN, integrating a CNN-based ConvNeXt structure as a feature extractor to enhance the model's ability to extract features from LR images. This design significantly improves the quality of super-resolved images while ensuring performance and efficiency.
-2. The model combines a dynamic codebook updating strategy (ema) with the foundational VQGAN, which allows for better adaptation and generalization across diverse image contents during the training process.
+2. The model combines a dynamic codebook updating strategy (ema) upon VQGAN, which allows for better adaptation and generalization across diverse image contents during the training process.
 3. We employ a phased training strategy, focusing initially on training the Encoder, Codebook, and Decoder within the VQGAN framework; in the second phase, we concentrate on training the Encoder along with the ConvNeXt feature extractor and GAN network. This approach effectively mitigates the instability of GAN training, enhancing the model's training stability and efficiency.
 
 Experimental validation on multiple datasets demonstrates that our proposed model outperforms existing technologies in the task of image super-resolution.
