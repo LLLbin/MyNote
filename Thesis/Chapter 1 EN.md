@@ -13,10 +13,10 @@ Blind super-resolution addresses the challenge of unknown degradation models and
 - Due to the complexity of blind super-resolution tasks, training stable and high-performing models is challenging, especially when using techniques like generative adversarial networks (GANs), which can lead to inconsistent image quality during training.
 ### 1.3 Contributions
 
-针对未知退化模型的盲超分辨率问题，本研究的主要贡献如下：
+To address the problem of blind super-resolution with unknown degradation models, the main contributions of this study are as follows:
 
-1. 本研究提出一种新型基于VQGAN的超分辨率模型，将基于CNN的ConvNeXt结构集成为特征提取器，增强了模型对低分辨率图像的特征提取能力，从而在保证性能和效率的同时显著提高了超分辨率图像的质量。
-2. 在VQGAN的基础上结合动态更新的codebook策略（ema），在训练过程中更好地动态调整codebook，进一步增强了模型在处理多样化图像内容时的适应性和泛化能力。
-3. 采用分阶段训练策略，第一阶段训练VQGAN的Encoder、Codebook和Decoder；第二阶段重点训练Encoder与ConvNeXt特征提取器及GAN网络，有效缓解了GAN训练的不稳定性，提高了模型的训练稳定性和效率。
+1. The paper propose a novel super-resolution model based on VQGAN, integrating a CNN-based ConvNeXt structure as a feature extractor to enhance the model's ability to extract features from LR images. This design significantly improves the quality of super-resolved images while ensuring performance and efficiency.
+2. The model combines a dynamic codebook updating strategy (ema) with the foundational VQGAN, which allows for better adaptation and generalization across diverse image contents during the training process.
+3. We employ a phased training strategy, focusing initially on training the Encoder, Codebook, and Decoder within the VQGAN framework; in the second phase, we concentrate on training the Encoder along with the ConvNeXt feature extractor and GAN network. This approach effectively mitigates the instability of GAN training, enhancing the model's training stability and efficiency.
 
-通过在多个数据集上的实验验证，本研究提出的模型在图像超分辨率任务上的表现优于现有技术。
+Experimental validation on multiple datasets demonstrates that our proposed model outperforms existing technologies in the task of image super-resolution.
