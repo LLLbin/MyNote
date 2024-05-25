@@ -8,12 +8,30 @@
         "type": "tabs",
         "children": [
           {
+            "id": "cf80301189dcca5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis/Chapter 1 EN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ed53234daa9de2a0",
+        "type": "tabs",
+        "children": [
+          {
             "id": "2c058e9f3cd074a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Futurewei/Carla Dataset.md",
+                "file": "Thesis/Chapter 1 CN.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 247.5
   },
   "right": {
     "id": "56e95fde4bd41373",
@@ -94,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Futurewei/Carla Dataset.md",
+                "file": "Thesis/Chapter 1 EN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Futurewei/Carla Dataset.md",
+                "file": "Thesis/Chapter 1 EN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Futurewei/Carla Dataset.md"
+                "file": "Thesis/Chapter 1 EN.md"
               }
             }
           },
@@ -160,7 +178,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Futurewei/Carla Dataset.md",
+                "file": "Thesis/Chapter 1 EN.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,33 +217,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2c058e9f3cd074a7",
+  "active": "cf80301189dcca5a",
   "lastOpenFiles": [
+    "Thesis/Chapter 1 CN.md",
+    "Thesis/Chapter 2 CN.md",
+    "Thesis/Chapter 1 EN.md",
     "Thesis/Chapter 3 EN.md",
     "Thesis/Chapter 3 CN.md",
     "Thesis/Chapter 2 EN.md",
-    "Thesis/Chapter 2 CN.md",
-    "Thesis/Chapter 1 EN.md",
-    "Thesis/Chapter 1 CN.md",
-    "Thesis/Chapter 3.md",
-    "Thesis/Chapter 2.md",
-    "Thesis/Chapter 1.md",
-    "Futurewei/Carla Dataset.md",
     "- Inbox/222.md",
+    "TODO List.md",
+    "Futurewei/Carla Dataset.md",
     "Thesis",
     "README.md",
-    "TODO List.md",
     "Research/Super Resolution/Thesis.md",
     "Skill/Deep Learning/PIL库/图像打开和保存.md",
     "Skill/Deep Learning/PIL库/PIL.md",
@@ -240,6 +255,9 @@
     "Skill/Deep Learning/PIL库",
     "Skill/Deep Learning/未命名.md",
     "Skill/Deep Learning/numpy库/numpy.md",
+    "Skill/Deep Learning/opencv库/opencv.md",
+    "Skill/Deep Learning/pytorch库/pytorch.md",
+    "Skill/Deep Learning/opencv库/基本处理.md",
     "Skill/Deep Learning/matplotlib库",
     "Skill/Deep Learning/opencv库",
     "Skill/Deep Learning/lightning库",
