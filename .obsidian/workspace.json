@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf80301189dcca5a",
+            "id": "2c058e9f3cd074a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/Chapter 1 EN.md",
+                "file": "Thesis/Chapter 1 CN.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "ed53234daa9de2a0",
+        "id": "362215cf8ef9be57",
         "type": "tabs",
         "children": [
           {
-            "id": "2c058e9f3cd074a7",
+            "id": "cf80301189dcca5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/Chapter 1 CN.md",
+                "file": "Thesis/Chapter 1 EN.md",
                 "mode": "source",
                 "source": false
               }
@@ -231,8 +231,8 @@
   "active": "cf80301189dcca5a",
   "lastOpenFiles": [
     "Thesis/Chapter 1 CN.md",
-    "Thesis/Chapter 2 CN.md",
     "Thesis/Chapter 1 EN.md",
+    "Thesis/Chapter 2 CN.md",
     "Thesis/Chapter 3 EN.md",
     "Thesis/Chapter 3 CN.md",
     "Thesis/Chapter 2 EN.md",
