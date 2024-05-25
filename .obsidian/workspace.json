@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Chapter 1 CN.md",
+                "file": "Thesis/Chapter 1 EN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Chapter 1 CN.md",
+                "file": "Thesis/Chapter 1 EN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Chapter 1 CN.md"
+                "file": "Thesis/Chapter 1 EN.md"
               }
             }
           },
@@ -178,7 +178,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Thesis/Chapter 1 CN.md",
+                "file": "Thesis/Chapter 1 EN.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -228,11 +228,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2c058e9f3cd074a7",
+  "active": "8f4124c871626f41",
   "lastOpenFiles": [
+    "Thesis/Chapter 1 CN.md",
     "Thesis/Abstract CN.md",
     "Thesis/Chapter 1 EN.md",
-    "Thesis/Chapter 1 CN.md",
     "Thesis/Abstract EN.md",
     "Thesis/Chapter 2 CN.md",
     "Thesis/Chapter 3 EN.md",
