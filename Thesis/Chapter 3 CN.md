@@ -13,7 +13,8 @@ ConvNeXt模块利用卷积操作在保留空间信息的同时提取更加丰富
 #### Codebook
 
 输入的HR图像$y \in R^{H \times W \times 3}$，经过Encoder的处理后，输出的特征表示 $\hat{z} = E(y) \in R^{h \times w \times n_\hat{z}}$ 会通过码本进行量化。码本包含多个离散的特征向量，
-用于表示输入图像的不同部分。在量化的过程中，每个输入的 $\hat{z}_{i} \in R^{n_\hat{z}}$ 都会被替换成codebook$Z \in R^(K \times n_{z})$中对接近的code来构造量化嵌入$z_{qk}$
+用于表示输入图像的不同部分。在量化的过程中，每个输入的 $\hat{z}_{i} \in R^{n_\hat{z}}$ 都会被替换成codebook $Z \in R^{K \times n_{z}}$ 中最接近的code来构造量化嵌入 $z_{qk} \in R^{n_\hat{z}}$ 。
+$$z_{q} = $$
 
 
 通过量化过程，模型能够有效地压缩和表示图像的特征，并增强图像生成的多样性和准确性。我们采用动态更新策略（EMA）来优化码本的利用率，确保在训练过程中能够自适应地调整码本。
