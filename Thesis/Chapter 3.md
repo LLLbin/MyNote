@@ -33,7 +33,7 @@ $$\hat{y}=G(z_{q})\approx y$$
 
 #### Stage 1, Pretraining of VQGAN Backbone
 在这个阶段中，我们使用 HR 图像集来训练由编码器 E、离散码本 Z 和解码器 G 组成的 VQGAN  Backbone。阶段一的训练过程如图3-3所示。
-为了训练Encoder和Decoder，我们用 $y$ 和 $\hat{y}$ 来计算重建损失函数，重建损失函数主要由 L1 loss和 perceptual loss组成[]：
+为了训练Encoder和Decoder，我们用 $y$ 和 $\hat{y}$ 来计算重建损失函数，根据[]重建损失函数主要由 L1 loss和 perceptual loss组成：
 $$\begin{aligned}\mathcal{L}_{rec}=\lambda_{L1}\|\hat{y}-{y}\|_1+\lambda_{per}\|\phi(\hat{y})-\phi({y})\|_2^2\end{aligned}$$
 where $𝜙$ is a pretrained VGG-16 network, $𝜆_{L1}$ and $𝜆_{pre}$ are weights of the $L1$ and perceptual losses respectively.
 而对于Codebook，由于方程（1）中的量化操作不可微，我们采用了文献[7]中的直通梯度估计器（Straight-Through Estimator）进行训练。该估计器直接将解码器 $G$ 的梯度复制到编码器 $E$，从而实现了反向传播，并允许在使用代码级损失函数 $L_{VQ}$ 进行端到端训练。
