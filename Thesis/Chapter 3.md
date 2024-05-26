@@ -52,7 +52,16 @@ $$\begin{aligned}\mathcal{L}_{stage_{1}}=\mathcal{L}_{rec}+\mathcal{L}_{VQ}\end{
 在阶段二，我们使用LR和HR成对图像集来对Encoder，ConvNeXt和Discriminator来进行训练。阶段二的训练过程如图3-3所示。
 在这个阶段，我们同样使用重建损失来作为损失函数的其中一部分来对Encoder，ConvNeXt进行训练。除此之外，我根据[2]添加了hinge loss作为对抗性损失。
 $$\mathcal{L}_{adv}=\lambda_{adv}\sum_{i}-\mathbb{E}[D(\hat{{y}_i})]$$
+
 因此，阶段二的总损失函数定义为
 $$\begin{aligned}\mathcal{L}_{stage_{2}}=\mathcal{L}_{rec}+\mathcal{L}_{adv}\end{aligned}$$
 此外，用于训练discriminator的损失函数定义为：
 $$L_D=\sum_{i}\{\mathbb{E}[\max(0,1-D(y_{i}))]+\mathbb{E}[\max(0,1+D(\hat{y}_{i})]\}$$
+
+
+
+其中，$\lambda_{adv}$ 是对抗损失的权重系数，$\mathbb{E}[D(\hat{y}_i)]$ 是判别器 $D$ 对生成图像 $\hat{y}_i$ 输出的期望值。负号表示生成器希望最大化判别器对生成图像的评分。通过优化该损失函数，生成器能够提高生成图像的质量，使其更难被判别器识别为假。
+
+---
+
+希望这样符合你的要求。如果需要进一步调整或补充，请告诉我。
