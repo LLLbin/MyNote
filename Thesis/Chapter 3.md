@@ -31,9 +31,9 @@ $$\hat{y}=G(z_{q})\approx y$$
 
 ### Training Pipeline
 
-#### Stage 1, Pretraining of VQGAN Ba
+#### Stage 1, Pretraining of VQGAN Backbone
+第一阶段，我们使用 HR 图像来预训练由编码器 E、离散码本 Z 和解码器 G 组成的 VQGAN  Backbone。给定HR的图像数据集
 
 
-
-#### Stage 2
+#### Stage 2, Super-Resolution
 
