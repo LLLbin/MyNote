@@ -43,4 +43,6 @@ $$\begin{aligned}\mathcal{L}_{stage_{1}}=\mathcal{L}_{rec}+\mathcal{L}_{VQ}\end{
 根据[9]，其中每个损失的权重设置为：$\lambda_{L1}=\lambda_{per}=1,\beta=0.25$
 
 #### Stage 2, Super-Resolution
-在阶段二，我们使用
+在阶段二，我们使用LR和HR成对图像集来对Encoder，ConvNeXt和Discriminator来进行训练。阶段二的训练过程如图3-3所示。
+在这个阶段，我们同样使用重建损失来作为损失函数的其中一部分来对Encoder，ConvNeXt进行训练。除此之外，我还添加了对抗性损失作为损失函数的另一部分。
+
