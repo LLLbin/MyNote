@@ -61,3 +61,4 @@ $$L_D=\sum_{i}\{\mathbb{E}[\max(0,1-D(y_{i}))]+\mathbb{E}[\max(0,1+D(\hat{y}_{i}
 
 
 
+$$\begin{aligned}\mathcal{L}_{VQ}(E,G,\mathcal{Z})=\|\hat{z}-z\|_{2}^{2}\end{aligned}$$
