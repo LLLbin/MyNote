@@ -12,8 +12,8 @@
 ConvNeXt模块利用卷积操作在保留空间信息的同时提取更加丰富的图像特征，从而提高了模型对低分辨率图像特征的捕捉能力，使得生成的高分辨率图像更为清晰和细腻。
 #### Codebook
 
-在VQGAN中，codebook 是一个关键组件，主要作用是将连续的特征向量量化为离散的表示，从而减少表示的复杂性并提高生成图像的质量和连贯性。通过学习使编码后的特征向量接近代码向量（code vectors），这样可以使特征向量进行。此外，使用向量量化技术和替代梯度更新 codebook，确保模型各部分能够有效训练。
-输入的HR图像 $y \in \mathbb{R}^{H \times W \times 3}$，经过Encoder的处理后，输出的特征表示 $\hat{z} = E(y) \in \mathbb{R}^{h \times w \times n_\hat{z}}$ 会通过码本进行量化。码本包含多个离散的特征向量，
+在VQGAN中，codebook 是一个关键组件，主要作用是将连续的特征向量量化为离散的表示，从而减少表示的复杂性并提高生成图像的质量和连贯性。通过学习使编码后的特征向量接近代码向量（code vectors），这样可以将连续的表示映射到一个离散的集合中，从而大幅降低特征表示的复杂性。此外，VQGAN中使用了向量量化技术（Vector Quantization）和替代梯度（straight-through estimator）更新 codebook，确保模型各部分能够有效训练。
+具体来说，输入的HR图像 $y \in \mathbb{R}^{H \times W \times 3}$，经过Encoder的处理后，输出的特征表示 $\hat{z} = E(y) \in \mathbb{R}^{h \times w \times n_\hat{z}}$ 会通过码本进行量化。码本包含多个离散的特征向量，
 用于表示输入图像的不同部分。在量化的过程中，每个输入的 $\hat{z}_{i} \in \mathbb{R}^{n_\hat{z}}$ 都会被替换成codebook $Z \in \mathbb{R}^{K \times n_{z}}$ 中最接近的code来构造量化嵌入 $z_{qk} \in \mathbb{R}^{n_\hat{z}}$ 。
 $$z_\mathbf{q}=\mathbf{q}(\hat{z})=\left(\underset{z_k\in\mathcal{Z}}{\operatorname*{\arg\min}}\|\hat{z}_{i}-z_k\|\right)\in\mathbb{R}^{h\times w\times n_z}$$
 其中，$K$ 是codes在codebook中的总数量，$i \in \{1,2,\dots,h\times w$ 。在这之后，y 由 z 通过解码器 G 重建： 
