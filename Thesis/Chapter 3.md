@@ -33,6 +33,7 @@ $$\hat{y}=G(z_{q})\approx y$$
 
 #### Stage 1, Pretraining of VQGAN Backbone
 在这个阶段中，我们使用 HR 图像集来训练由编码器 E、离散码本 Z 和解码器 G 组成的 VQGAN  Backbone。阶段一的训练过程如图3-3所示。
+为了训练Encoder和Decoder，我们主要用 $y$ 和 $\hat{y}$ 来计算损失
 由于方程（1）中的量化操作不可微，我们采用了文献[39, 7]中的直通梯度估计器（Straight-Through Estimator）。该估计器直接将解码器 \(G\) 的梯度复制到编码器 \(E\)，从而实现了反向传播，并允许在使用代码级损失函数 \(L_{VQ}\) 进行端到端训练。
 $$\begin{aligned}L_{VQ}(E,G,\mathcal{Z})&=\|\boldsymbol{y}^{\prime}-\boldsymbol{y}\|_{1}+\|\operatorname{sg}[\hat{z}]-z\|_{2}^{2}\\&+\beta\|\mathrm{sg}[z]-\hat{z}\|_{2}^{2},\end{aligned}$$
 其中 sg[·] 是停止梯度操作，根据 [9, 36] β = 0.25。通过预训练的 VQGAN，训练集中的任何高分辨率图像 y 都可以用 Z 中相应的特征向量和解码器 G 来重建。
