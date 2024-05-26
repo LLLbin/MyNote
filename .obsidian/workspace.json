@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/Chapter 3 CN.md",
+                "file": "Thesis/Chapter 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Chapter 3 CN.md",
+                "file": "Thesis/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Chapter 3 CN.md",
+                "file": "Thesis/Chapter 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Chapter 3 CN.md"
+                "file": "Thesis/Chapter 3.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Thesis/Chapter 3 CN.md",
+                "file": "Thesis/Chapter 3.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,14 +212,14 @@
   },
   "active": "36634f3515a0430f",
   "lastOpenFiles": [
-    "Thesis/Chapter 3 EN.md",
-    "Thesis/Chapter 3 CN.md",
-    "Thesis/Chapter 2 EN.md",
-    "Thesis/Chapter 1 CN.md",
-    "Thesis/Chapter 2 CN.md",
+    "Thesis/Chapter 2.md",
+    "Thesis/Chapter 1.md",
+    "Thesis/Abstract.md",
     "Thesis/Chapter 1 EN.md",
+    "Thesis/Chapter 3.md",
     "Thesis/Abstract EN.md",
-    "Thesis/Abstract CN.md",
+    "Thesis/Chapter 3 EN.md",
+    "Thesis/Chapter 2 EN.md",
     "- Inbox/222.md",
     "TODO List.md",
     "Futurewei/Carla Dataset.md",
