@@ -37,8 +37,9 @@ $$\hat{y}=G(z_{q})\approx y$$
 $$\begin{aligned}\mathcal{L}_{rec}=\lambda_{L1}\|\hat{y}-{y}\|_1+\lambda_{per}\|\phi(\hat{y})-\phi({y})\|_2^2\end{aligned}$$
 where $𝜙$ is a pretrained VGG-16 network, $𝜆_{L1}$ and $𝜆_{pre}$ are weights of the $L1$ and perceptual losses respectively. 其中每个损失的权重设置为：$\lambda_{L1}=\lambda_{per}=1$
 而对于Codebook，由于方程（1）中的量化操作不可微，我们采用了文献\cite(van2017neural, esser2021taming)中的直通梯度估计器（Straight-Through Estimator）进行训练。该估计器直接将解码器 $G$ 的梯度复制到编码器 $E$，从而实现了反向传播，并允许在使用代码级损失函数 $L_{VQ}$ 进行端到端训练。
-$$\begin{aligned}\mathcal{L}_{VQ}(E,G,\mathcal{Z})=\|\operatorname{sg}[\hat{z}]-z\|_{2}^{2}+\beta\|\mathrm{sg}[z]-\hat{z}\|_{2}^{2}\end{aligned}$$
-其中 sg[·] 是停止梯度操作, β = 0.25是控制码本更新频率的超参数。通过预训练的 VQGAN，训练集中的任何高分辨率图像 y 都可以用 Z 中相应的特征向量和解码器 G 来重建。
+$$\begin{aligned}\mathcal{L}_{VQ}(E,G,\mathcal{Z})=\|\operatorname{sg}[\hat{z}]-z_{q}\|_{2}^{2}+\beta\|\mathrm{sg}[z_{q}]-\hat{z}\|_{2}^{2}\end{aligned}$$
+其中 sg[·] 是停止梯度操作, β=0.25 是一个超参数，用于平衡损失函数中两个项的权重。
+
 此外，我们在训练过程中引入了EMA（Exponential Moving Average）动态平滑更新策略，以提高模型的稳定性和性能。在每次训练迭代中，EMA通过对和codebook参数进行动态平滑更新，减小了训练过程中参数波动对模型性能的影响。具体而言，EMA策略通过以下公式更新参数：
 
 $$
@@ -63,6 +64,6 @@ $$L_D=\sum_{i}\{\mathbb{E}[\max(0,1-D(y_{i}))]+\mathbb{E}[\max(0,1+D(\hat{y}_{i}
 
 
 损失函数由两部分组成：
-1.  $\|\operatorname{sg}[\hat{z}] - z\|_{2}^{2}$ 意味着仅更新 $z$ ，使得从码本中选择的离散向量 $z$ 尽可能接近编码器的输出 $\hat{z}$。这项损失用于更新codebook中的code，确保编码器输出的特征向量 $\hat{z}$ 在码本中找到最接近的向量 $z$，并使其之间的距离最小化。
+1.  $\|\operatorname{sg}[\hat{z}] - z_{q}\|_{2}^{2}$ 意味着仅更新 $z$ 。这项损失用于更新codebook中的code，确保从码本中选择的向量 $z_{q}$​ 尽可能接近编码器的输出 $\hat{z}$。
 
-2.  $\|\operatorname{sg}[z] - \hat{z}\|_{2}^{2}$ 意味着仅更新 $\hat{z}$ ，使得编码器的输出 $\hat{z}$ 尽可能接近从码本中选择的离散向量 $z$。这项损失更新了编码器的参数，确保编码器输出的特征向量 $\hat{z}$ 尽可能接近从码本中选择的向量 $z$
+2.  $\|\operatorname{sg}[z] - \hat{z}\|_{2}^{2}$ 意味着仅更新 $\hat{z}$ ，这项损失用于更新Encoder的参数，确保编码器输出的特征向量 $\hat{z}$ 尽可能接近从码本中选择的向量 $z_{q}$
