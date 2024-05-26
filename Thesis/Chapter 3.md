@@ -57,11 +57,7 @@ $$\mathcal{L}_{adv}=\lambda_{adv}\sum_{i}-\mathbb{E}[D(\hat{{y}_i})]$$
 $$\begin{aligned}\mathcal{L}_{stage_{2}}=\mathcal{L}_{rec}+\mathcal{L}_{adv}\end{aligned}$$
 此外，用于训练discriminator的损失函数定义为：
 $$L_D=\sum_{i}\{\mathbb{E}[\max(0,1-D(y_{i}))]+\mathbb{E}[\max(0,1+D(\hat{y}_{i})]\}$$
+其中，$\mathbb{E}[\max(0, 1 - D(y_i))]$ 是对真实图像 $y_i$ 的损失期望值，判别器试图将 $D(y)$ 的输出尽量接近 1（表示真实）; $\mathbb{E}[\max(0, 1 + D(\hat{y}_i))]$ 是对生成图像 $\hat{y}_i$ 的损失期望值，判别器试图将 $D(\hat{y}_{i})$ 的输出尽量接近 -1（表示生成）。通过最小化这两个期望值，判别器能够更准确地区分真实图像和生成图像。
 
 
 
-
-
----
-
-这样是否符合你的要求？如果需要进一步调整，请告诉我。
