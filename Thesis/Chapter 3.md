@@ -49,6 +49,5 @@ $$\mathcal{L}_{adv}=\lambda_{adv}\sum_{i}-\mathbb{E}[D(\hat{{y}_i})]$$
 因此，阶段一的总损失函数定义为
 $$\begin{aligned}\mathcal{L}_{stage_{2}}=\mathcal{L}_{rec}+\mathcal{L}_{adv}\end{aligned}$$
 根据[9]，其中每个损失的权重设置为：$\lambda_{L1}=1,\lambda_{adv}=0.1,\beta=0.25$
-此外，discriminator的损失函数定义为：
-
+此外，用于训练discriminator的损失函数定义为：
 $$L_D=\sum_{i}\{\mathbb{E}[\max(0,1-D(y_{i}))]+\mathbb{E}[\max(0,1+D(\hat{y}_{i})]\}$$
