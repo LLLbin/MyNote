@@ -38,7 +38,7 @@ $$\begin{aligned}\mathcal{L}_{rec}=\lambda_{L1}\|\hat{y}-{y}\|_1+\lambda_{per}\|
 where $𝜙$ is a pretrained VGG-16 network, $𝜆_{L1}$ and $𝜆_{pre}$ are weights of the $L1$ and perceptual losses respectively. 其中每个损失的权重设置为：$\lambda_{L1}=\lambda_{per}=1$
 而对于Codebook，由于方程（1）中的量化操作不可微，我们采用了文献\cite(van2017neural, esser2021taming)中的直通梯度估计器（Straight-Through Estimator）进行训练。该估计器直接将解码器 $G$ 的梯度复制到编码器 $E$，从而实现了反向传播，并允许在使用代码级损失函数 $L_{VQ}$ 进行端到端训练。
 $$\begin{aligned}\mathcal{L}_{VQ}(E,G,\mathcal{Z})=\|\operatorname{sg}[\hat{z}]-z_{q}\|_{2}^{2}+\beta\|\mathrm{sg}[z_{q}]-\hat{z}\|_{2}^{2}\end{aligned}$$
-其中 sg[·] 是停止梯度操作, β=0.25 是一个超参数，用于平衡损失函数中两个项的权重。
+其中 sg[·] 是停止梯度操作, β=0.25 是一个超参数，用于平衡损失函数中两个项的权重。$\mathcal{L}_{VQ}$由两部分组成。第一部分$\|\operatorname{sg}[\hat{z}] - z_{q}\|_{2}^{2}$ 意味着仅更新 $z_{q}$ 。这项损失用于更新codebook中的code，确保从码本中选择的向量 $z_{q}$​ 尽可能接近编码器的输出 $\hat{z}$。第二部分$\|\operatorname{sg}[z_{q}] - \hat{z}\|_{2}^{2}$ 意味着仅更新 $\hat{z}$ ，这项损失用于更新Encoder的参数，确保编码器输出的特征向量 $\hat{z}$ 尽可能接近从码本中选择的向量 $z_{q}$。
 
 此外，我们在训练过程中引入了EMA（Exponential Moving Average）动态平滑更新策略，以提高模型的稳定性和性能。在每次训练迭代中，EMA通过对和codebook参数进行动态平滑更新，减小了训练过程中参数波动对模型性能的影响。具体而言，EMA策略通过以下公式更新参数：
 
@@ -51,7 +51,7 @@ $$
 $$\begin{aligned}\mathcal{L}_{stage_{1}}=\mathcal{L}_{rec}+\mathcal{L}_{VQ}\end{aligned}$$
 #### Stage 2, Super-Resolution
 在阶段二，我们使用LR和HR成对图像集来对Encoder，ConvNeXt和Discriminator来进行训练。阶段二的训练过程如图3-3所示。
-在这个阶段，我们同样使用重建损失来作为损失函数的其中一部分来对Encoder，ConvNeXt进行训练。除此之外，我根据[2]添加了hinge loss作为对抗性损失。
+在这个阶段，我们同样使用重建损失来作为损失函数的其中一部分来对Encoder，ConvNeXt进行训练。除此之外，我根据\cite(chen2021progressive)添加了hinge loss作为对抗性损失。
 $$\mathcal{L}_{adv}=\lambda_{adv}\sum_{i}-\mathbb{E}[D(\hat{{y}_i})]$$
 其中，$\lambda_{adv}$ 是对抗损失的权重系数, 设置为0.1，$-\mathbb{E}[D(\hat{y}_i)]$ 是表示生成器希望最大化判别器对生成图像的评分。通过优化该损失函数，生成器能够提高生成图像的质量，使其更难被判别器识别为假。
 因此，阶段二的总损失函数定义为
@@ -59,11 +59,3 @@ $$\begin{aligned}\mathcal{L}_{stage_{2}}=\mathcal{L}_{rec}+\mathcal{L}_{adv}\end
 此外，用于训练discriminator的损失函数定义为：
 $$L_D=\sum_{i}\{\mathbb{E}[\max(0,1-D(y_{i}))]+\mathbb{E}[\max(0,1+D(\hat{y}_{i})]\}$$
 其中，$\mathbb{E}[\max(0, 1 - D(y_i))]$ 是对真实图像 $y_i$ 的损失期望值，判别器试图将 $D(y)$ 的输出尽量接近 1（表示真实）; $\mathbb{E}[\max(0, 1 + D(\hat{y}_i))]$ 是对生成图像 $\hat{y}_i$ 的损失期望值，判别器试图将 $D(\hat{y}_{i})$ 的输出尽量接近 -1（表示生成）。通过最小化这两个期望值，判别器能够更准确地区分真实图像和生成图像。
-
-
-
-
-损失函数由两部分组成：
-1.  $\|\operatorname{sg}[\hat{z}] - z_{q}\|_{2}^{2}$ 意味着仅更新 $z$ 。这项损失用于更新codebook中的code，确保从码本中选择的向量 $z_{q}$​ 尽可能接近编码器的输出 $\hat{z}$。
-
-2.  $\|\operatorname{sg}[z] - \hat{z}\|_{2}^{2}$ 意味着仅更新 $\hat{z}$ ，这项损失用于更新Encoder的参数，确保编码器输出的特征向量 $\hat{z}$ 尽可能接近从码本中选择的向量 $z_{q}$
