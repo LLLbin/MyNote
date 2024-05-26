@@ -1,5 +1,5 @@
 ### Overview of Proposed Model
-本文提出的超分辨率模型基于VQGAN架构，并结合了ConvNeXt特征提取模块，整个的网络架构如图figure3-1所示，主要包括以下五个部分：编码器（Encoder）、ConvNeXt特征提取器、码本（Codebook）、解码器（Decoder）和判别器（Discriminator）。我们方法的整体训练由两个个连续阶段组成。在第一阶段（第 3.1 节），我们将 HQ 数据集划分为多个语义子集，并在每个子集上训练特定于类的 VQGAN [7]。在第二阶段，使用固定的预训练特定类密码本作为基础，我们利用变压器块生成权重图并通过自重建任务训练 AdaCode（第 3.2 节）。在最后阶段（第 3.3 节），我们采用具有固定码本和固定图像解码器的 AdaCode 来解决下游恢复任务，例如超分辨率和图像修复。
+本文提出的超分辨率模型基于VQGAN架构，并结合了ConvNeXt特征提取模块，整个的网络架构如图figure3-1所示，主要包括以下五个部分：编码器（Encoder）、ConvNeXt特征提取器、码本（Codebook）、解码器（Decoder）和判别器（Discriminator）。我们方法的整体训练由两个阶段组成。在第一阶段，我们主要训练VQGAN的骨架网络，其中包括Encoder，Codebook，Decoder，用来提取HR图像中的高分辨率先验信息来进行第二阶段的超分辨任务。在第二阶段，我们结合了第一阶段的固定码本和固定图像解码器训练Encoder，ConvNeXt特征提取器以及Discriminator，用以解决图像盲超分辨率的任务。
 #### Encoder
 
 编码器的主要任务是将输入的低分辨率图像进行特征提取和压缩。我们采用了VQGAN中的编码器结构，通过n个下采样器将低分辨率图像转换为紧凑的特征表示 $\hat{x}$，其中每个下采样器都将图像的Height和Weight都减少一半。如果给到输入图像 $x ∈ R^{H \times W \times 3}$，那么经过VQ-Encoder处理后就输出$\hat{x} \in R^{\frac{H}{2^n} \times \frac{W}{2^n} \times n_{\hat{x}}}$。这种表示不仅保留了图像中的重要信息，而且减少了特征的空间维度，为后续的特征处理和量化打下基础。
