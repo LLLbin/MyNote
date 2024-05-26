@@ -38,6 +38,7 @@ $$\begin{aligned}\mathcal{L}_{rec}=\lambda_{L1}\|\hat{y}-{y}\|_1+\lambda_{per}\|
 而对于Codebook，由于方程（1）中的量化操作不可微，我们采用了文献[7]中的直通梯度估计器（Straight-Through Estimator）进行训练。该估计器直接将解码器 \(G\) 的梯度复制到编码器 \(E\)，从而实现了反向传播，并允许在使用代码级损失函数 \(L_{VQ}\) 进行端到端训练。
 $$\begin{aligned}\mathcal{L}_{VQ}(E,G,\mathcal{Z})=\|\operatorname{sg}[\hat{z}]-z\|_{2}^{2}+\beta\|\mathrm{sg}[z]-\hat{z}\|_{2}^{2}\end{aligned}$$
 其中 sg[·] 是停止梯度操作，根据 β = 0.25。通过预训练的 VQGAN，训练集中的任何高分辨率图像 y 都可以用 Z 中相应的特征向量和解码器 G 来重建。
+
 因此，阶段一的总损失函数定义为
 $$\begin{aligned}\mathcal{L}_{stage_{1}}=\mathcal{L}_{rec}+\mathcal{L}_{VQ}\end{aligned}$$
 根据[9]，其中每个损失的权重设置为：$\lambda_{L1}=\lambda_{per}=1,\beta=0.25$
@@ -51,3 +52,44 @@ $$\begin{aligned}\mathcal{L}_{stage_{2}}=\mathcal{L}_{rec}+\mathcal{L}_{adv}\end
 根据[9]，其中每个损失的权重设置为：$\lambda_{L1}=1,\lambda_{adv}=0.1,\beta=0.25$
 此外，用于训练discriminator的损失函数定义为：
 $$L_D=\sum_{i}\{\mathbb{E}[\max(0,1-D(y_{i}))]+\mathbb{E}[\max(0,1+D(\hat{y}_{i})]\}$$
+
+
+
+此外，我们在训练过程中引入了EMA（Exponential Moving Average）动态平滑更新策略，以提高模型的稳定性和性能。EMA通过对模型参数进行平滑更新，减小了训练过程中参数波动对模型性能的影响。具体而言，EMA策略通过以下公式更新参数：
+
+$$
+\theta_{\text{EMA}} \leftarrow \alpha \theta_{\text{EMA}} + (1 - \alpha) \theta
+$$
+
+其中，\(\theta_{\text{EMA}}\) 是EMA更新后的参数，\(\theta\) 是当前模型参数，\(\alpha\) 是平滑系数，通常取值接近于1（例如0.99）。
+
+在每次训练迭代中，我们首先计算原始损失函数 $\mathcal{L}_{VQ}$ 并进行反向传播来更新模型参数，然后应用EMA公式对编码器 $E$ 和codebook $\mathcal{Z}\) 的参数进行平滑更新。通过这种方式，我们能够在不改变损失函数形式的情况下，利用EMA策略提高模型训练的稳定性和效果。
+
+---
+
+### 实际训练过程
+
+在实际训练过程中，首先初始化EMA参数为模型参数的初始值。然后，在每次训练迭代中进行以下步骤：
+
+1. **计算原始损失**：
+   计算codebook的损失函数 \(\mathcal{L}_{VQ}\)：
+
+   \[
+   \mathcal{L}_{VQ}(E,G,\mathcal{Z}) = \|\operatorname{sg}[\hat{z}] - z\|_{2}^{2} + \beta \|\operatorname{sg}[z] - \hat{z}\|_{2}^{2}
+   \]
+
+2. **反向传播和参数更新**：
+   使用梯度下降法更新模型参数 \(\theta\)。
+
+3. **更新EMA参数**：
+   使用EMA公式更新参数 \(\theta_{\text{EMA}}\)：
+
+   \[
+   \theta_{\text{EMA}} \leftarrow \alpha \theta_{\text{EMA}} + (1 - \alpha) \theta
+   \]
+
+通过这种方法，我们能够有效地平滑参数更新过程，进而提高模型的训练稳定性和最终性能。
+
+---
+
+以上内容描述了在引入EMA动态平滑更新策略后的完整训练过程。通过这种方式，不仅可以保持原有损失函数的形式，还能够显著提升模型的稳定性和泛化能力。
