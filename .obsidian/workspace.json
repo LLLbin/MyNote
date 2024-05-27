@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/Chapter 3.md",
+                "file": "Thesis/Chapter 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Chapter 3.md",
+                "file": "Thesis/Chapter 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Chapter 3.md",
+                "file": "Thesis/Chapter 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Chapter 3.md"
+                "file": "Thesis/Chapter 4.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Thesis/Chapter 3.md",
+                "file": "Thesis/Chapter 4.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,8 +212,9 @@
   },
   "active": "36634f3515a0430f",
   "lastOpenFiles": [
-    "Thesis/Chapter 2.md",
     "Thesis/Chapter 3.md",
+    "Thesis/Chapter 4.md",
+    "Thesis/Chapter 2.md",
     "Thesis/Chapter 1.md",
     "Thesis/Abstract.md",
     "Thesis/Chapter 1 EN.md",
@@ -239,7 +240,6 @@
     "Skill/Deep Learning/PIL库",
     "Skill/Deep Learning/未命名.md",
     "Skill/Deep Learning/numpy库/numpy.md",
-    "Skill/Deep Learning/opencv库/opencv.md",
     "Skill/Deep Learning/matplotlib库",
     "Skill/Deep Learning/opencv库",
     "Skill/Deep Learning/lightning库",
