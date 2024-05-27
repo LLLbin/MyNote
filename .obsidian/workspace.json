@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36634f3515a0430f",
+            "id": "2c058e9f3cd074a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/Chapter 4.md",
+                "file": "Futurewei/Carla Dataset.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 297.5
   },
   "right": {
     "id": "56e95fde4bd41373",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Chapter 4.md",
+                "file": "Futurewei/Carla Dataset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Chapter 4.md",
+                "file": "Futurewei/Carla Dataset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Chapter 4.md"
+                "file": "Futurewei/Carla Dataset.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Thesis/Chapter 4.md",
+                "file": "Futurewei/Carla Dataset.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,33 +199,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "periodic-notes:Open this week": false
     }
   },
-  "active": "36634f3515a0430f",
+  "active": "2c058e9f3cd074a7",
   "lastOpenFiles": [
-    "Thesis/Chapter 3.md",
     "Thesis/Chapter 4.md",
+    "Thesis/Chapter 3.md",
     "Thesis/Chapter 2.md",
     "Thesis/Chapter 1.md",
     "Thesis/Abstract.md",
-    "Thesis/Chapter 1 EN.md",
     "Thesis/Abstract EN.md",
+    "Thesis/Abstract CN.md",
     "Thesis/Chapter 3 EN.md",
+    "Thesis/Chapter 3 CN.md",
     "Thesis/Chapter 2 EN.md",
-    "- Inbox/222.md",
-    "TODO List.md",
+    "Thesis/Chapter 2 CN.md",
+    "Thesis/Chapter 1 EN.md",
+    "Thesis/Chapter 1 CN.md",
     "Futurewei/Carla Dataset.md",
+    "- Inbox/222.md",
     "Thesis",
     "README.md",
+    "TODO List.md",
     "Research/Super Resolution/Thesis.md",
     "Skill/Deep Learning/PIL库/图像打开和保存.md",
     "Skill/Deep Learning/PIL库/PIL.md",
@@ -235,11 +239,7 @@
     "Skill/Deep Learning/PIL库/图像大小和裁剪.md",
     "Skill/Deep Learning/PIL库/图像模式的转换.md",
     "Skill/Deep Learning/PIL库/图像滤镜和增强.md",
-    "Skill/Deep Learning/PIL库/图像合并和分割.md",
-    "Skill/Deep Learning/PIL库/图像旋转和翻转.md",
     "Skill/Deep Learning/PIL库",
-    "Skill/Deep Learning/未命名.md",
-    "Skill/Deep Learning/numpy库/numpy.md",
     "Skill/Deep Learning/matplotlib库",
     "Skill/Deep Learning/opencv库",
     "Skill/Deep Learning/lightning库",
