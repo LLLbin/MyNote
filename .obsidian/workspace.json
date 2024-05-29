@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "14560b74393ee791",
+            "id": "2939cf77e4d41116",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "- Inbox/note.md",
+                "file": "- Inbox/task.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Inbox/note.md",
+                "file": "- Inbox/task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Inbox/note.md",
+                "file": "- Inbox/task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Inbox/note.md"
+                "file": "- Inbox/task.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "- Inbox/note.md",
+                "file": "- Inbox/task.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,27 +212,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "periodic-notes:Open this week": false
     }
   },
-  "active": "14560b74393ee791",
+  "active": "2939cf77e4d41116",
   "lastOpenFiles": [
-    "- Inbox/task.md",
     "- Inbox/note.md",
-    "- Inbox/222.md",
-    "Thesis/Chapter 1.md",
     "Futurewei/Carla Dataset.md",
+    "- Inbox/task.md",
     "Thesis/Chapter 4.md",
     "Thesis/Chapter 3.md",
     "Thesis/Chapter 2.md",
+    "Thesis/Chapter 1.md",
     "Thesis/Abstract.md",
     "Thesis/Abstract EN.md",
     "Thesis/Abstract CN.md",
@@ -242,6 +241,7 @@
     "Thesis/Chapter 2 CN.md",
     "Thesis/Chapter 1 EN.md",
     "Thesis/Chapter 1 CN.md",
+    "- Inbox/222.md",
     "Thesis",
     "README.md",
     "TODO List.md",
