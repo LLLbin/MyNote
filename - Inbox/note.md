@@ -40,4 +40,24 @@ Exponential Moving Average (EMA) dynamic updating strategy
 
 ### P4
 
-### 
+### P5
+
+### P6
+
+### P7
+
+### P8
+
+
+### P9
+
+
+### P10
+
+
+### P11
+
+To train the encoder and decoder, we calculate the reconstruction loss using \( y \) and \( \hat{y} \). The reconstruction loss is mainly composed of L1 loss and perceptual loss:
+
+
+### P12
