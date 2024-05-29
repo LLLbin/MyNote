@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "2939cf77e4d41116",
+            "id": "14560b74393ee791",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "- Inbox/task.md",
+                "file": "- Inbox/note.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Inbox/task.md",
+                "file": "- Inbox/note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Inbox/task.md",
+                "file": "- Inbox/note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Inbox/task.md"
+                "file": "- Inbox/note.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "- Inbox/task.md",
+                "file": "- Inbox/note.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,9 +223,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2939cf77e4d41116",
+  "active": "14560b74393ee791",
   "lastOpenFiles": [
     "Futurewei/Carla Dataset.md",
+    "- Inbox/note.md",
     "- Inbox/task.md",
     "Thesis/Chapter 4.md",
     "Thesis/Chapter 3.md",
@@ -251,7 +252,6 @@
     "Skill/Deep Learning/PIL库/图像绘制的工具.md",
     "Skill/Deep Learning/Deep Learning.md",
     "Skill/Deep Learning/PIL库/图像大小和裁剪.md",
-    "Skill/Deep Learning/PIL库/图像模式的转换.md",
     "Skill/Deep Learning/PIL库",
     "Skill/Deep Learning/matplotlib库",
     "Skill/Deep Learning/opencv库",
