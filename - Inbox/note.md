@@ -1,6 +1,6 @@
 
 
-### P1
+### P2
 
 图像超分辨率（SR）是计算机视觉领域的一个重要的研究课题，旨在从低分辨率（LR）图像恢复高分辨率（HR）图像。目前人们会因为图像采集设备的限制，会采集到细节丢失，视觉效果差的低分辨率图像。超分辨率技术就是要解决这些问题的，要做的不仅仅是指把图像的尺寸放大，更重要的是提升图像的清晰度，突出图像中的纹理和细节，改善视觉体验。
 
@@ -14,7 +14,7 @@
 - 在恢复高分辨率图像的过程中，如何在重建细节和抑制伪影之间取得平衡是一大难点。过度增强细节可能引入伪影，而过度抑制伪影又可能导致细节丢失。
 - 由于盲超分辨率任务的复杂性，训练稳定且性能优异的模型具有一定难度。特别是在使用生成对抗网络（GAN）等方法时，模型训练过程中容易出现不稳定现象，导致生成图像质量不一致。
 
-### P2
+### P3
 
 - **Integration of ConvNeXt with VQGAN for Enhanced Feature Extraction**: The paper proposes a novel super-resolution model based on VQGAN, integrating a CNN-based ConvNeXt structure as a feature extractor. This design significantly improves the quality of super-resolved images while ensuring performance and efficiency.
     
@@ -23,22 +23,10 @@
 - **Phased Training Strategy**: A phased training strategy is adopted: in the first phase, the encoder, codebook, and decoder are primarily trained within the VQGAN framework; in the second phase, we concentrate on training the Encoder along with the ConvNeXt feature extractor and GAN network. This approach effectively mitigates the instability of GAN training, enhancing the model's training stability and efficiency.
 
 
-
-Propose a novel super-resolution model based on VQGAN and ConvNeXt.
-
-Optimized Codebook Utilization in VQGAN
-
-Phased Training Strategy
-
-
-
-
 我们在盲超分辨率任务中使用是VQGAN（Vector Quantized Generative Adversarial Network）的原因在于其强大的表征能力和动态调整的量化码本。通过量化学习复杂的高维图像表示，VQGAN能够捕捉并重建出细致的图像细节，适应多种未知的退化因素。同时，VQGAN结合了生成对抗网络（GAN）的优势，通过对抗训练提高了生成图像的质量，从而在处理复杂和多变的退化情况下生成高质量的超分辨率图像。此外，我们还结合了ConvNeXt模块来进一步增加模型的特征提取能力，从而让模型能学到LR图像更多的特征来使用codebook进行更细致的量化。
 
 
 The reason we use VQGAN (Vector Quantized Generative Adversarial Network) for blind super-resolution tasks lies in its powerful representation capabilities and dynamically adjustable codebook. By quantizing complex high-dimensional image representations, VQGAN can capture and reconstruct intricate image details, adapting to various unknown degradation factors. Additionally, VQGAN leverages the advantages of Generative Adversarial Networks (GANs) by improving the quality of generated images through adversarial training. This enables the model to produce high-quality super-resolved images under complex and variable degradation conditions. Furthermore, we integrate the ConvNeXt module to enhance the model's feature extraction capability, allowing it to learn more features from LR images for more detailed quantization using the codebook.
-
-
 
 - Powerful feature extraction capabilities
 - Efficient computational performance (based on CNN)
@@ -48,3 +36,8 @@ optimizing its capacity, improving its initialization
 Capacity Optimization
 Initialization Improvement
 Exponential Moving Average (EMA) dynamic updating strategy
+
+
+### P4
+
+### 
