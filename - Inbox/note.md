@@ -9,3 +9,16 @@
 - 低分辨率图像的内容和质量可能差别非常大，包括自然场景、人脸、文本等不同类型的图像。这要求模型具有较强的泛化能力，能够在不同类型的图像上都表现出色。
 - 在恢复高分辨率图像的过程中，如何在重建细节和抑制伪影之间取得平衡是一大难点。过度增强细节可能引入伪影，而过度抑制伪影又可能导致细节丢失。
 - 由于盲超分辨率任务的复杂性，训练稳定且性能优异的模型具有一定难度。特别是在使用生成对抗网络（GAN）等方法时，模型训练过程中容易出现不稳定现象，导致生成图像质量不一致。
+
+
+- **Integration of ConvNeXt with VQGAN for Enhanced Feature Extraction**: The paper proposes a novel super-resolution model based on VQGAN, integrating a CNN-based ConvNeXt structure as a feature extractor. This design significantly improves the quality of super-resolved images while ensuring performance and efficiency.
+    
+- **Optimized Codebook Utilization**: Various strategies are implemented to improve the utilization of the codebook within the VQGAN framework, including optimizing its capacity, improving its initialization, and using an Exponential Moving Average (EMA) dynamic updating strategy. These strategies allow for better dynamic adjustment of the codebook during training, further enhancing the model's adaptability and generalization capability when handling diverse image content.
+    
+- **Phased Training Strategy**: A phased training strategy is adopted: in the first phase, the encoder, codebook, and decoder are primarily trained within the VQGAN framework; in the second phase, we concentrate on training the Encoder along with the ConvNeXt feature extractor and GAN network. This approach effectively mitigates the instability of GAN training, enhancing the model's training stability and efficiency.
+
+Propose a novel super-resolution model based on VQGAN and ConvNeXt.
+
+Optimized Codebook Utilization in VQGAN
+
+Phased Training Strategy
