@@ -42,3 +42,9 @@ The reason we use VQGAN (Vector Quantized Generative Adversarial Network) for bl
 
 - Powerful feature extraction capabilities
 - Efficient computational performance (based on CNN)
+
+optimizing its capacity, improving its initialization
+
+Capacity Optimization
+Initialization Improvement
+Exponential Moving Average (EMA) dynamic updating strategy
