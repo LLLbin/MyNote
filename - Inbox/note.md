@@ -33,4 +33,4 @@ Phased Training Strategy
 
 
 
-我们在盲超分辨率任务中使用是VQGAN（Vector Quantized Generative Adversarial Network）的原因在于其强大的表征能力和动态调整的量化码本。通过量化学习复杂的高维图像表示，VQGAN能够捕捉并重建出细致的图像细节，适应多种未知的退化因素。此外，VQGAN结合了生成对抗网络（GAN）的优势，通过对抗训练提高了生成图像的质量，从而在处理复杂和多变的退化情况下生成高质量的超分辨率图像。
+我们在盲超分辨率任务中使用是VQGAN（Vector Quantized Generative Adversarial Network）的原因在于其强大的表征能力和动态调整的量化码本。通过量化学习复杂的高维图像表示，VQGAN能够捕捉并重建出细致的图像细节，适应多种未知的退化因素。同时，VQGAN结合了生成对抗网络（GAN）的优势，通过对抗训练提高了生成图像的质量，从而在处理复杂和多变的退化情况下生成高质量的超分辨率图像。此外，我们还结合了ConvNeXt模块来进一步增加模型的特征提取能力，从而让模型能学到LR图像更多的特征来使用codebook进行更细致的量化。
