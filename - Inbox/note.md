@@ -39,4 +39,6 @@ Phased Training Strategy
 The reason we use VQGAN (Vector Quantized Generative Adversarial Network) for blind super-resolution tasks lies in its powerful representation capabilities and dynamically adjustable codebook. By quantizing complex high-dimensional image representations, VQGAN can capture and reconstruct intricate image details, adapting to various unknown degradation factors. Additionally, VQGAN leverages the advantages of Generative Adversarial Networks (GANs) by improving the quality of generated images through adversarial training. This enables the model to produce high-quality super-resolved images under complex and variable degradation conditions. Furthermore, we integrate the ConvNeXt module to enhance the model's feature extraction capability, allowing it to learn more features from LR images for more detailed quantization using the codebook.
 
 
-VQGAN (Vector Quantized Generative Adversarial Network) has 
+
+- Powerful feature extraction capabilities
+- Efficient computational performance (based on CNN)
