@@ -80,3 +80,9 @@ Upsampler Layers: PixelShuffle technology is used for upsampling to meet the inp
 
 
 The ConvNeXt module uses convolution operations to extract richer image features while preserving spatial information, thereby improving the model's ability to capture features from low-resolution images and producing clearer and more detailed high-resolution images.
+
+
+The task of the decoder is to convert the quantized feature representation \(z_{q}\) back into a high-resolution image.  Specifically, the high-resolution image \(\hat{y}\) is reconstructed from the quantized feature representation \(z_{q}\) by the decoder \(G\):
+
+
+The decoder structure consists of a series of upsamplers, each of which doubles the height and width of the image, thereby gradually restoring the spatial resolution of the original image.
