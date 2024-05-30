@@ -61,3 +61,9 @@ To train the encoder and decoder, we calculate the reconstruction loss using \( 
 
 
 ### P12
+
+- **PSNR (Peak Signal-to-Noise Ratio)**: Measures the difference between two images, commonly used to evaluate the quality of image reconstruction; higher values indicate better image quality.
+    
+- **SSIM (Structural Similarity Index Measure)**: Assesses the similarity between two images by comparing luminance, contrast, and structural information; higher values indicate greater structural similarity.
+    
+- **LPIPS (Learned Perceptual Image Patch Similarity)**: Uses deep learning models to extract features and measure the perceptual similarity between two images; lower values indicate higher perceptual quality.
