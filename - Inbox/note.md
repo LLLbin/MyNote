@@ -72,12 +72,11 @@ In VQGAN, the codebook is a crucial component whose primary function is to quant
  
 
 
-To further enhance feature extraction capabilities, we introduced the ConvNeXt\cite{liu2022convnet} module based on Convolutional Neural Networks (CNN) after the encoder. The structure of the ConvNeXt module is shown in Figure 3-3 and consists of the following three parts:
+Stem Layer: This layer uses a $4 \times 4$ convolution kernel for downsampling, significantly reducing the size of the input image, thereby decreasing computational complexity and improving the speed and efficiency of subsequent modules. Additionally, LayerNorm\cite{ba2016layer} is introduced for normalization, which helps improve the stability of network training and model performance.
 
-\begin{itemize}
-    \item \textbf{Stem Layer}: This layer uses a $4 \times 4$ convolution kernel for downsampling, significantly reducing the size of the input image, thereby decreasing computational complexity and improving the speed and efficiency of subsequent modules. Additionally, LayerNorm\cite{ba2016layer} is introduced for normalization, which helps improve the stability of network training and model performance.
-    \item \textbf{Four-Stage Feature Extraction (Stages)}: Each stage has a series of ConvNeXt Blocks, where each block employs Depthwise Convolution\cite{chollet2017xception} (DwConv) technology to extract spatial features. These features are then arranged and normalized to enhance numerical stability during training. Finally, two linear layers are used for feature transformation, connected by the GELU\cite{hendrycks2016gaussian} activation function. At the end of each convolutional block, the processed features are directly added to the block inputs, forming skip connections to introduce residual learning. Additionally, DropPath, a type of stochastic depth technique, is added to enhance the model's generalization capability and robustness.
-    \item \textbf{Upsampler Layers}: PixelShuffle technology is used for upsampling to meet the input size requirements of the codebook.
-\end{itemize}
+Four-Stage Feature Extraction (Stages): Each stage has a series of ConvNeXt Blocks, where each block employs Depthwise Convolution(DwConv) technology to extract spatial features. These features are then arranged and normalized to enhance numerical stability during training. Finally, two linear layers are used for feature transformation, connected by the GELU\cite{hendrycks2016gaussian} activation function. At the end of each convolutional block, the processed features are directly added to the block inputs, forming skip connections to introduce residual learning. Additionally, DropPath, a type of stochastic depth technique, is added to enhance the model's generalization capability and robustness.
+
+Upsampler Layers: PixelShuffle technology is used for upsampling to meet the input size requirements of the codebook.
+
 
 The ConvNeXt module uses convolution operations to extract richer image features while preserving spatial information, thereby improving the model's ability to capture features from low-resolution images and producing clearer and more detailed high-resolution images.
