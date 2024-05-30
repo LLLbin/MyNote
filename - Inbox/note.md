@@ -67,3 +67,18 @@ To train the encoder and decoder, we calculate the reconstruction loss using \( 
 - **SSIM (Structural Similarity Index Measure)**: Assesses the similarity between two images by comparing luminance, contrast, and structural information; higher values indicate greater structural similarity.
     
 - **LPIPS (Learned Perceptual Image Patch Similarity)**: Uses deep learning models to extract features and measure the perceptual similarity between two images; lower values indicate higher perceptual quality.
+
+
+当然，以下是计算LPIPS（Learned Perceptual Image Patch Similarity）的公式，使用LaTeX格式表示：
+
+\[ 
+\text{LPIPS}(x, y) = \sum_{l} \frac{1}{H_l W_l} \sum_{h=1}^{H_l} \sum_{w=1}^{W_l} \| \phi_l(x)_{h,w} - \phi_l(y)_{h,w} \|_2^2 
+\]
+
+其中：
+- \(x\) 和 \(y\) 分别是两张输入图像。
+- \(\phi_l(\cdot)\) 表示在第 \(l\) 层的特征表示。
+- \(H_l\) 和 \(W_l\) 分别是第 \(l\) 层特征表示的高度和宽度。
+- \(\| \cdot \|_2\) 表示L2范数（欧几里得距离）。
+
+这个公式描述了通过在深度神经网络的不同层提取特征表示，并计算这些特征表示之间的距离来衡量两幅图像之间的感知相似度。
