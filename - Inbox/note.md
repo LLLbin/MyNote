@@ -37,26 +37,6 @@ Capacity Optimization
 Initialization Improvement
 Exponential Moving Average (EMA) dynamic updating strategy
 
-
-### P4
-
-### P5
-
-### P6
-
-### P7
-
-### P8
-
-
-### P9
-
-
-### P10
-
-
-### P11
-
 To train the encoder and decoder, we calculate the reconstruction loss using \( y \) and \( \hat{y} \). The reconstruction loss is mainly composed of L1 loss and perceptual loss:
 
 
@@ -82,3 +62,13 @@ To train the encoder and decoder, we calculate the reconstruction loss using \( 
 - \(\| \cdot \|_2\) 表示L2范数（欧几里得距离）。
 
 这个公式描述了通过在深度神经网络的不同层提取特征表示，并计算这些特征表示之间的距离来衡量两幅图像之间的感知相似度。
+
+
+
+
+In VQGAN, the codebook is a crucial component whose primary function is to quantize continuous feature vectors into discrete representations, thereby reducing the complexity of the representation and improving the quality and coherence of the generated images. By learning to make the encoded feature vectors approximate code vectors, the continuous representations are mapped to a discrete set, significantly reducing the complexity of the feature representation.
+
+在 VQGAN 中，码本是一个至关重要的组件。Codebook由一组嵌入向量 {ek}​ 组成，其中 K 是codebook中嵌入向量的数量，每个嵌入向量 ek 的维度与特征空间的维度相同。这些嵌入向量在训练过程中通过学习调整，以便更好地表示输入数据的特征。
+
+
+其主要功能是将连续特征矢量量化为离散表示，从而降低表示的复杂性并提高生成图像的质量和连贯性。通过学习使编码特征矢量近似于代码矢量，将连续表示映射到离散集，从而显着降低特征表示的复杂性。
