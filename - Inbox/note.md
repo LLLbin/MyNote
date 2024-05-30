@@ -68,7 +68,15 @@ To train the encoder and decoder, we calculate the reconstruction loss using \( 
 
 In VQGAN, the codebook is a crucial component whose primary function is to quantize continuous feature vectors into discrete representations, thereby reducing the complexity of the representation and improving the quality and coherence of the generated images. By learning to make the encoded feature vectors approximate code vectors, the continuous representations are mapped to a discrete set, significantly reducing the complexity of the feature representation.
 
-在 VQGAN 中，码本是一个至关重要的组件。Codebook由一组嵌入向量 {ek}​ 组成，其中 K 是codebook中嵌入向量的数量，每个嵌入向量 ek 的维度与特征空间的维度相同。这些嵌入向量在训练过程中通过学习调整，以便更好地表示输入数据的特征。
+在 VQGAN 中，码本是一个至关重要的组件。
+
+Codebook由一组嵌入向量 {ek}​ 组成，其中 K 是codebook中嵌入向量的数量，每个嵌入向量 ek 的维度与特征空间的维度相同。这些嵌入向量在训练过程中通过学习调整，以便更好地表示输入数据的特征。
+
+Codebook的功能如下：
+- 量化输入特征向量，将连续特征矢量量化为离散表示。
+- 减少表示复杂性，离散的码本向量可以减少表示的复杂性。
+- 提高生成质量，离散码本通过限定潜在空间，减少
+- 增强一致性，
 
 
 其主要功能是将连续特征矢量量化为离散表示，从而降低表示的复杂性并提高生成图像的质量和连贯性。通过学习使编码特征矢量近似于代码矢量，将连续表示映射到离散集，从而显着降低特征表示的复杂性。
