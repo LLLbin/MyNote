@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "- Inbox/task.md",
+                "file": "Journal/2024 - Week 23rd - Jun.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Futurewei/Carla Dataset.md",
+                "file": "Journal/2024 - Week 23rd - Jun.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Futurewei/Carla Dataset.md",
+                "file": "Journal/2024 - Week 23rd - Jun.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Futurewei/Carla Dataset.md"
+                "file": "Journal/2024 - Week 23rd - Jun.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Futurewei/Carla Dataset.md",
+                "file": "Journal/2024 - Week 23rd - Jun.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,10 +223,15 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "d57c600b0ca1a824",
+  "active": "2939cf77e4d41116",
   "lastOpenFiles": [
-    "- Inbox/note.md",
+    "Journal/2024 - Week 21st - May.md",
+    "Journal/2024 - Week 23rd - Jun.md",
+    "Journal/2024 - Week 20th - May.md",
+    "Journal/2024 - Week 19th - May.md",
+    "Journal/2024 - Week 18rd - Apr.md",
     "Futurewei/Carla Dataset.md",
+    "- Inbox/note.md",
     "- Inbox/task.md",
     "Thesis/Chapter 4.md",
     "Thesis/Chapter 3.md",
@@ -247,11 +252,6 @@
     "TODO List.md",
     "Research/Super Resolution/Thesis.md",
     "Skill/Deep Learning/PIL库/图像打开和保存.md",
-    "Skill/Deep Learning/PIL库/PIL.md",
-    "Skill/Deep Learning/PIL库/图像的信息获取.md",
-    "Skill/Deep Learning/PIL库/图像绘制的工具.md",
-    "Skill/Deep Learning/Deep Learning.md",
-    "Skill/Deep Learning/PIL库/图像大小和裁剪.md",
     "Skill/Deep Learning/PIL库",
     "Skill/Deep Learning/matplotlib库",
     "Skill/Deep Learning/opencv库",
