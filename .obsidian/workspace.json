@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dc1e375f2f25211d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,7 +233,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2939cf77e4d41116",
+  "active": "dc1e375f2f25211d",
   "lastOpenFiles": [
     "Journal/2024 - Week 21st - May.md",
     "Journal/2024 - Week 23rd - Jun.md",
