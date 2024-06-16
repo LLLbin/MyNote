@@ -4,57 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "94c65552588ae2fb",
+        "id": "b69c0eafd9904b4f",
         "type": "tabs",
         "children": [
           {
-            "id": "2c058e9f3cd074a7",
+            "id": "03f5bf2021891519",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Futurewei/Carla Dataset.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2939cf77e4d41116",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/2024 - Week 23rd - Jun.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc1e375f2f25211d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
-          },
-          {
-            "id": "c8364fe94f08ca7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/Untitled.md",
+                "file": "Journal/2024 - Week 18rd - Apr.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Inbox/Untitled.md",
+                "file": "Journal/2024 - Week 18rd - Apr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Inbox/Untitled.md",
+                "file": "Journal/2024 - Week 18rd - Apr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Inbox/Untitled.md"
+                "file": "Journal/2024 - Week 18rd - Apr.md"
               }
             }
           },
@@ -195,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "- Inbox/Untitled.md",
+                "file": "Journal/2024 - Week 18rd - Apr.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,45 +210,46 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c8364fe94f08ca7b",
+  "active": "03f5bf2021891519",
   "lastOpenFiles": [
-    "- Inbox/Untitled.md",
-    "Journal/2024 - Week 21st - May.md",
-    "Journal/2024 - Week 23rd - Jun.md",
-    "Journal/2024 - Week 20th - May.md",
-    "Journal/2024 - Week 19th - May.md",
+    "Journal/2024 - Week 17th - Apr.md",
+    "Journal/2024 - Week 16th - Apr.md",
     "Journal/2024 - Week 18rd - Apr.md",
-    "Futurewei/Carla Dataset.md",
+    "Journal/2024 - Week 19th - May.md",
+    "Journal/2024 - Week 20th - May.md",
+    "Journal/2024 - Week 24th - Jun.md",
+    "Journal/2024 - Week 23rd - Jun.md",
+    "Journal/2024 - Week 22nd - May.md",
+    "Journal/2024 - Week 21st - May.md",
+    "Journal/2024 - Week 15th - Apr.md",
+    "Journal/2024 - Week 14th - Mar.md",
+    "Journal/2024 - Week 13th - Mar.md",
     "- Inbox/note.md",
     "- Inbox/task.md",
+    "- Inbox/Untitled.md",
     "Thesis/Chapter 4.md",
-    "Thesis/Chapter 3.md",
     "Thesis/Chapter 2.md",
+    "Thesis/Chapter 3.md",
     "Thesis/Chapter 1.md",
     "Thesis/Abstract.md",
-    "Thesis/Abstract EN.md",
-    "Thesis/Abstract CN.md",
-    "Thesis/Chapter 3 EN.md",
-    "Thesis/Chapter 3 CN.md",
-    "Thesis/Chapter 2 EN.md",
-    "Thesis/Chapter 2 CN.md",
-    "Thesis/Chapter 1 EN.md",
-    "Thesis/Chapter 1 CN.md",
-    "- Inbox/222.md",
     "Thesis",
+    "Futurewei/Carla Dataset.md",
+    "Futurewei/Evaluation.md",
     "README.md",
     "TODO List.md",
-    "Research/Super Resolution/Thesis.md",
-    "Skill/Deep Learning/PIL库",
-    "Skill/Deep Learning/matplotlib库",
-    "Skill/Deep Learning/opencv库",
-    "Skill/Deep Learning/lightning库",
-    "Skill/Deep Learning/Basic",
+    "Steps.md",
+    "- Inbox/LaTeX  in OverLeaf.md",
+    "Skill/Python/标准库/io 库 类.canvas",
+    "Skill/Python/标准库",
     "Futurewei",
+    "- Template",
+    "- Attachment",
+    "- Excalidraw",
+    "- Inbox",
     "English/Speaking/日常词汇.pdf",
     "English/Speaking/日常句子.pdf",
     "English/Speaking/日常造句.pdf",
-    "Skill/Python/标准库/io 库 类.canvas",
+    "Skill/Python/库/标准库/io 库 类.canvas",
     "Obsidian-Python-vault 1.3/库/标准库/io 库 类.canvas",
     "- Attachment/Pasted image 20240228121240.png",
     "未命名.canvas",
