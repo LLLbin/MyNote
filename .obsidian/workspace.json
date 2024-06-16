@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b69c0eafd9904b4f",
+        "id": "b1b9bb05ef8eebdf",
         "type": "tabs",
         "children": [
           {
-            "id": "03f5bf2021891519",
+            "id": "1bf3b15d2560d818",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "TODO List.md"
-              }
+              "type": "full-calendar-view",
+              "state": {}
             }
           }
         ]
@@ -92,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "TODO List.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,7 +152,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TODO List.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,8 +201,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "03f5bf2021891519",
+  "active": "1bf3b15d2560d818",
   "lastOpenFiles": [
+    "TODO List.md",
+    "- Calender/school life",
+    "- Calender/work life",
+    "- Calender/daily life",
+    "- Calender/01 life",
+    "- Calender",
     "README.md",
     "Skill/Deep Learning/Deep Learning.md",
     "Thesis/Abstract.md",
@@ -236,17 +235,10 @@
     "Journal/2024 - Week 20th - May.md",
     "Journal/2024 - Week 21st - May.md",
     "Journal/2024 - Week 22nd - May.md",
-    "Journal/2024 - Week 23rd - Jun.md",
-    "- Inbox/note.md",
     "Thesis",
     "Skill/Python/标准库/io 库 类.canvas",
     "Skill/Python/标准库",
     "Futurewei",
-    "- Template",
-    "- Attachment",
-    "- Excalidraw",
-    "- Inbox",
-    "English/Speaking/日常词汇.pdf",
     "Skill/Python/库/标准库/io 库 类.canvas",
     "Obsidian-Python-vault 1.3/库/标准库/io 库 类.canvas",
     "- Attachment/Pasted image 20240228121240.png",
