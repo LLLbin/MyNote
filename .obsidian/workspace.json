@@ -16,8 +16,19 @@
                 "file": "TODO List.md"
               }
             }
+          },
+          {
+            "id": "74e310d16297688a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +150,7 @@
       {
         "id": "bdbbf8798a361732",
         "type": "tabs",
-        "dimension": 47.198480531813864,
+        "dimension": 47.19848053181387,
         "children": [
           {
             "id": "01a74dbe98413eed",
@@ -207,7 +218,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3a8dcd26461e7b3f",
+  "active": "74e310d16297688a",
   "lastOpenFiles": [
     "TODO List.md",
     "- Calender/school life",
