@@ -25,11 +25,14 @@ kanban-plugin: basic
 - [ ] 01 JD protocol
 - [ ] 01 Shopping
 - [ ] 01 买樱桃
+- [ ] 01 早起跑步
 
 
 ## English
 
 - [ ] 邵艾伦口语
+- [ ] Youtube听力+复述
+- [ ] ChatGPT聊天
 
 
 

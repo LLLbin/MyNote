@@ -4,19 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1b9bb05ef8eebdf",
+        "id": "b491d63f63b0607b",
         "type": "tabs",
         "children": [
           {
-            "id": "1bf3b15d2560d818",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "efb88510ae93a0ed",
+            "id": "3a8dcd26461e7b3f",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -25,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 399.5
   },
   "right": {
     "id": "56e95fde4bd41373",
@@ -93,7 +84,7 @@
       {
         "id": "04df3b2869d92397",
         "type": "tabs",
-        "dimension": 54.41176470588235,
+        "dimension": 52.80151946818613,
         "children": [
           {
             "id": "59f9bdec12cab8d1",
@@ -148,19 +139,8 @@
       {
         "id": "bdbbf8798a361732",
         "type": "tabs",
-        "dimension": 45.58823529411765,
+        "dimension": 47.198480531813864,
         "children": [
-          {
-            "id": "3f1e4f3a12bbf92e",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
           {
             "id": "01a74dbe98413eed",
             "type": "leaf",
@@ -195,13 +175,23 @@
                 }
               }
             }
+          },
+          {
+            "id": "3f1e4f3a12bbf92e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5,
+    "width": 255.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -217,7 +207,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "efb88510ae93a0ed",
+  "active": "3a8dcd26461e7b3f",
   "lastOpenFiles": [
     "TODO List.md",
     "- Calender/school life",
