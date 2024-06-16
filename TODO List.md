@@ -6,19 +6,7 @@ kanban-plugin: basic
 
 ## SCU
 
-- [ ] 学习DL
-- [ ] 0. 完成thesis实验
-- [ ] 1. 完成thesis论文
-- [ ] 2. 准备Final Defense
-
-
-## Work
-
-- [ ] 0. Finetune Anime4K
-- [ ] 1. Finetune Adacode
-- [ ] 2. Finetune Real-ESRGAN
-- [ ] 3. 测试三个模型在Town04的性能
-- [ ] 4. 测试三个模型在Video Gan的性能
+- [ ] OPT
 
 
 
