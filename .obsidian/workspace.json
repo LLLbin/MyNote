@@ -14,8 +14,19 @@
               "type": "full-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "efb88510ae93a0ed",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "TODO List.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TODO List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TODO List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +129,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TODO List.md"
+              }
             }
           },
           {
@@ -152,6 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "TODO List.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,7 +217,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "1bf3b15d2560d818",
+  "active": "efb88510ae93a0ed",
   "lastOpenFiles": [
     "TODO List.md",
     "- Calender/school life",

@@ -20,6 +20,12 @@ kanban-plugin: basic
 - [ ] 入职
 
 
+## Daily Life
+
+- [ ] 01 JD protocol
+- [ ] 01 Shopping
+
+
 
 
 %% kanban:settings
