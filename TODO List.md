@@ -7,7 +7,7 @@ kanban-plugin: basic
 ## SCU
 
 - [ ] OPT
-- [ ] Thesis Paper
+- [ ] Conference Paper
 - [ ] ISS 秋季实习
 - [ ] SCU PhD 考试复习
 
@@ -23,7 +23,7 @@ kanban-plugin: basic
 ## Daily Life
 
 - [ ] 01 JD protocol
-- [ ] 01 Shopping
+- [ ] 01 Shopping (包 + 水杯)
 - [ ] 01 买樱桃
 - [ ] 01 早起跑步
 
@@ -33,6 +33,14 @@ kanban-plugin: basic
 - [ ] 邵艾伦口语
 - [ ] Youtube听力+复述
 - [ ] ChatGPT聊天
+
+
+## Green Card
+
+- [ ] 准备材料
+- [ ] 和wg沟通
+- [ ] 墨西哥签证
+- [ ] 递交I140
 
 
 

@@ -16,19 +16,8 @@
                 "file": "TODO List.md"
               }
             }
-          },
-          {
-            "id": "74e310d16297688a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 312.5
   },
   "right": {
     "id": "56e95fde4bd41373",
@@ -218,15 +207,15 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "74e310d16297688a",
+  "active": "3a8dcd26461e7b3f",
   "lastOpenFiles": [
+    "README.md",
     "TODO List.md",
     "- Calender/school life",
     "- Calender/work life",
     "- Calender/daily life",
     "- Calender/01 life",
     "- Calender",
-    "README.md",
     "Skill/Deep Learning/Deep Learning.md",
     "Thesis/Abstract.md",
     "Skill/Golang",
