@@ -16,29 +16,8 @@
                 "file": "TODO List.md"
               }
             }
-          },
-          {
-            "id": "2f6916cfea2c0806",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "51cd23c513a82173",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md",
+                "file": "TODO List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md",
+                "file": "TODO List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md"
+                "file": "TODO List.md"
               }
             }
           },
@@ -168,7 +147,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skill/Deep Learning/Deep Learning.md",
+                "file": "TODO List.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -228,14 +207,16 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "51cd23c513a82173",
+  "active": "3a8dcd26461e7b3f",
   "lastOpenFiles": [
-    "Skill/Python/deep learning/pytorch库/pytorch.md",
+    "Skill/Python/standard/abc 库.md",
     "Skill/Python/Python.md",
+    "Skill/Deep Learning/Deep Learning.md",
+    "Skill/Python/deep learning/opencv库/opencv.md",
+    "Skill/Python/deep learning/pytorch库/pytorch.md",
     "Skill/Python/deep learning/numpy库/ndarray 创建.md",
     "Skill/Python/deep learning",
     "- Inbox/深度学习.md",
-    "Skill/Deep Learning/Deep Learning.md",
     "TODO List.md",
     "- Calender/daily life/2024-06-17 Switch.md",
     "- Calender/work life/(Every M) Futurewei Meeting.md",
@@ -247,7 +228,6 @@
     "- Calender",
     "Thesis/Abstract.md",
     "Skill/Golang",
-    "Skill/Python/deep learning/opencv库/opencv.md",
     "Skill/Python/deep learning/pytorch库",
     "Skill/Python/deep learning/matplotlib库/窗口设置.md",
     "Skill/Deep Learning/pytorch库/pytorch.md",
@@ -263,7 +243,6 @@
     "Journal/2024 - Week 15th - Apr.md",
     "Journal/2024 - Week 16th - Apr.md",
     "Journal/2024 - Week 17th - Apr.md",
-    "Journal/2024 - Week 18rd - Apr.md",
     "Thesis",
     "Skill/Python/standard/io 库 类.canvas",
     "Skill/Python/standard",
