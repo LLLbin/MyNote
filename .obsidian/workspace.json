@@ -24,9 +24,21 @@
               "type": "full-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "51cd23c513a82173",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Skill/Deep Learning/Deep Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO List.md",
+                "file": "Skill/Deep Learning/Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO List.md",
+                "file": "Skill/Deep Learning/Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO List.md"
+                "file": "Skill/Deep Learning/Deep Learning.md"
               }
             }
           },
@@ -156,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TODO List.md",
+                "file": "Skill/Deep Learning/Deep Learning.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,28 +228,32 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2f6916cfea2c0806",
+  "active": "51cd23c513a82173",
   "lastOpenFiles": [
+    "Skill/Python/deep learning/pytorch库/pytorch.md",
+    "Skill/Python/Python.md",
+    "Skill/Python/deep learning/numpy库/ndarray 创建.md",
+    "Skill/Python/deep learning",
+    "- Inbox/深度学习.md",
+    "Skill/Deep Learning/Deep Learning.md",
+    "TODO List.md",
     "- Calender/daily life/2024-06-17 Switch.md",
     "- Calender/work life/(Every M) Futurewei Meeting.md",
     "README.md",
-    "TODO List.md",
     "- Calender/school life",
     "- Calender/work life",
     "- Calender/daily life",
     "- Calender/01 life",
     "- Calender",
-    "Skill/Deep Learning/Deep Learning.md",
     "Thesis/Abstract.md",
     "Skill/Golang",
-    "Skill/Deep Learning/Pytorch库/pytorch.md",
-    "Skill/Deep Learning/opencv库/opencv.md",
-    "Skill/Deep Learning/Pytorch库",
-    "Skill/Deep Learning/matplotlib库/窗口设置.md",
+    "Skill/Python/deep learning/opencv库/opencv.md",
+    "Skill/Python/deep learning/pytorch库",
+    "Skill/Python/deep learning/matplotlib库/窗口设置.md",
     "Skill/Deep Learning/pytorch库/pytorch.md",
     "Skill/Deep Learning/lightning库/lightning.md",
-    "Skill/Deep Learning/matplotlib库/图形绘制.md",
-    "Skill/Deep Learning/matplotlib库/matplotlib.md",
+    "Skill/Python/deep learning/matplotlib库/图形绘制.md",
+    "Skill/Python/deep learning/matplotlib库/matplotlib.md",
     "- Template/Weekly Journal Template.md",
     "Futurewei/Carla Dataset.md",
     "Journal/2024 - Week 24th - Jun.md",
@@ -248,13 +264,9 @@
     "Journal/2024 - Week 16th - Apr.md",
     "Journal/2024 - Week 17th - Apr.md",
     "Journal/2024 - Week 18rd - Apr.md",
-    "Journal/2024 - Week 19th - May.md",
-    "Journal/2024 - Week 20th - May.md",
-    "Journal/2024 - Week 21st - May.md",
     "Thesis",
-    "Skill/Python/标准库/io 库 类.canvas",
-    "Skill/Python/标准库",
-    "Futurewei",
+    "Skill/Python/standard/io 库 类.canvas",
+    "Skill/Python/standard",
     "Skill/Python/库/标准库/io 库 类.canvas",
     "Obsidian-Python-vault 1.3/库/标准库/io 库 类.canvas",
     "- Attachment/Pasted image 20240228121240.png",
