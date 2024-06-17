@@ -22,8 +22,7 @@ kanban-plugin: basic
 
 ## Daily Life
 
-- [ ] 01 JD protocol
-- [ ] 01 Shopping (包 + 水杯)
+- [ ] 01 Shopping 包
 - [ ] 01 买樱桃
 - [ ] 01 早起跑步
 
