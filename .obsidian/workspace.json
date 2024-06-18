@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e564deba79140de3",
+        "id": "b71e138d6622d1a9",
         "type": "tabs",
         "children": [
           {
-            "id": "4b0c69e2d1d90838",
+            "id": "43fe1cbad9ee12ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skill/Python/Python.md",
+                "file": "Skill/Python/fastapi/FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Skill/Python/Python.md",
+                "file": "Skill/Python/fastapi/FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Skill/Python/Python.md",
+                "file": "Skill/Python/fastapi/FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skill/Python/Python.md"
+                "file": "Skill/Python/fastapi/FastAPI.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Skill/Python/Python.md",
+                "file": "Skill/Python/fastapi/FastAPI.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,14 +209,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "4b0c69e2d1d90838",
+  "active": "43fe1cbad9ee12ac",
   "lastOpenFiles": [
-    "Skill/Python/python/类与对象.md",
     "Skill/Python/Python.md",
-    "Skill/Python/python/标准库.md",
     "Skill/Python/fastapi/FastAPI.md",
-    "Skill/Python/standard/abc 库.md",
     "Skill/Python/deep learning/深度学习.md",
+    "Skill/Python/python/类与对象.md",
+    "Skill/Python/python/标准库.md",
+    "Skill/Python/standard/abc 库.md",
     "Skill/Python/fastapi",
     "TODO List.md",
     "Skill/Deep Learning/Deep Learning.md",
