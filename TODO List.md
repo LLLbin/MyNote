@@ -14,30 +14,30 @@ kanban-plugin: basic
 
 ## Futurewei
 
-- [ ] NeRF Experiments
-- [ ] ACCV Carla Dataset Paper
-- [ ] MLIC++ & VVC Dataset
-- [ ] 入职
+- [ ] *NeRF Experiments
+- [ ] *ACCV Carla Dataset Paper
+- [ ] *MLIC++ & VVC Dataset
+- [ ] *入职
 
 
 ## Daily Life
 
 - [ ] 01 Shopping 包
 - [ ] 01 买樱桃
-- [ ] 01 早起跑步
+- [ ] *01 跑步
 
 
 ## English
 
-- [ ] 邵艾伦口语
-- [ ] Youtube听力+复述
-- [ ] ChatGPT聊天
+- [ ] *邵艾伦口语
+- [ ] *Youtube听力+复述
+- [ ] *ChatGPT聊天
 
 
 ## Green Card
 
-- [ ] 准备材料
-- [ ] 和wg沟通
+- [ ] *准备材料
+- [ ] *和wg沟通
 - [ ] 墨西哥签证
 - [ ] 递交I140
 
