@@ -84,7 +84,7 @@
       {
         "id": "04df3b2869d92397",
         "type": "tabs",
-        "dimension": 52.80151946818613,
+        "dimension": 52.80151946818612,
         "children": [
           {
             "id": "59f9bdec12cab8d1",
@@ -139,7 +139,7 @@
       {
         "id": "bdbbf8798a361732",
         "type": "tabs",
-        "dimension": 47.19848053181387,
+        "dimension": 47.19848053181388,
         "children": [
           {
             "id": "01a74dbe98413eed",
@@ -203,8 +203,7 @@
       "command-palette:Open command palette": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "periodic-notes:Open this week": false
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
   "active": "3a8dcd26461e7b3f",
