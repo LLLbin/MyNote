@@ -6,19 +6,40 @@ kanban-plugin: basic
 
 ## SCU
 
-- [ ] 学习DL
-- [ ] 0. 完成thesis实验
-- [ ] 1. 完成thesis论文
-- [ ] 2. 准备Final Defense
+- [ ] OPT
+- [ ] Conference Paper
+- [ ] ISS 秋季实习
+- [ ] SCU PhD 考试复习
 
 
-## Work
+## Futurewei
 
-- [ ] 0. Finetune Anime4K
-- [ ] 1. Finetune Adacode
-- [ ] 2. Finetune Real-ESRGAN
-- [ ] 3. 测试三个模型在Town04的性能
-- [ ] 4. 测试三个模型在Video Gan的性能
+- [ ] *NeRF Experiments
+- [ ] *ACCV Carla Dataset Paper
+- [ ] *MLIC++ & VVC Dataset
+- [ ] *入职
+
+
+## Daily Life
+
+- [ ] 01 Shopping 包
+- [ ] 01 买樱桃
+- [ ] *01 跑步
+
+
+## English
+
+- [ ] *邵艾伦口语
+- [ ] *Youtube听力+复述
+- [ ] *ChatGPT聊天
+
+
+## Green Card
+
+- [ ] *准备材料
+- [ ] *和wg沟通
+- [ ] 墨西哥签证
+- [ ] 递交I140
 
 
 

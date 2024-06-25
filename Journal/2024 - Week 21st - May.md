@@ -1,0 +1,13 @@
+- 工作
+	-  测试数据集
+		- Finetune Anime4K (4d)
+		- Finetune Adacode (4d)
+		- Finetune Real-ESRGAN (4d)
+		- MLIC++ Dataset
+- 学习
+	- SCU
+		- Thesis 论文，很急
+	- 自学
+		- 摆了
+- 生活
+	- 忙

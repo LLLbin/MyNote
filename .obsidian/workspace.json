@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "94c65552588ae2fb",
+        "id": "b71e138d6622d1a9",
         "type": "tabs",
         "children": [
           {
-            "id": "2c058e9f3cd074a7",
+            "id": "43fe1cbad9ee12ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Futurewei/Carla Dataset.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2939cf77e4d41116",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "- Inbox/task.md",
+                "file": "Skill/Python/fastapi/FastAPI.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 312.5
   },
   "right": {
     "id": "56e95fde4bd41373",
@@ -99,7 +86,7 @@
       {
         "id": "04df3b2869d92397",
         "type": "tabs",
-        "dimension": 54.41176470588235,
+        "dimension": 52.80151946818612,
         "children": [
           {
             "id": "59f9bdec12cab8d1",
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "- Inbox/task.md",
+                "file": "Skill/Python/fastapi/FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "- Inbox/task.md",
+                "file": "Skill/Python/fastapi/FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "- Inbox/task.md"
+                "file": "Skill/Python/fastapi/FastAPI.md"
               }
             }
           },
@@ -154,26 +141,15 @@
       {
         "id": "bdbbf8798a361732",
         "type": "tabs",
-        "dimension": 45.58823529411765,
+        "dimension": 47.19848053181388,
         "children": [
-          {
-            "id": "3f1e4f3a12bbf92e",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
           {
             "id": "01a74dbe98413eed",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "- Inbox/task.md",
+                "file": "Skill/Python/fastapi/FastAPI.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,13 +177,23 @@
                 }
               }
             }
+          },
+          {
+            "id": "3f1e4f3a12bbf92e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5,
+    "width": 255.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -223,45 +209,46 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "2939cf77e4d41116",
+  "active": "43fe1cbad9ee12ac",
   "lastOpenFiles": [
-    "- Inbox/note.md",
-    "Futurewei/Carla Dataset.md",
-    "- Inbox/task.md",
-    "Thesis/Chapter 4.md",
-    "Thesis/Chapter 3.md",
-    "Thesis/Chapter 2.md",
-    "Thesis/Chapter 1.md",
-    "Thesis/Abstract.md",
-    "Thesis/Abstract EN.md",
-    "Thesis/Abstract CN.md",
-    "Thesis/Chapter 3 EN.md",
-    "Thesis/Chapter 3 CN.md",
-    "Thesis/Chapter 2 EN.md",
-    "Thesis/Chapter 2 CN.md",
-    "Thesis/Chapter 1 EN.md",
-    "Thesis/Chapter 1 CN.md",
-    "- Inbox/222.md",
-    "Thesis",
-    "README.md",
+    "Skill/Python/Python.md",
+    "Skill/Python/fastapi/FastAPI.md",
+    "Skill/Python/deep learning/深度学习.md",
+    "Skill/Python/python/类与对象.md",
+    "Skill/Python/python/标准库.md",
+    "Skill/Python/standard/abc 库.md",
+    "Skill/Python/fastapi",
     "TODO List.md",
-    "Research/Super Resolution/Thesis.md",
-    "Skill/Deep Learning/PIL库/图像打开和保存.md",
-    "Skill/Deep Learning/PIL库/PIL.md",
-    "Skill/Deep Learning/PIL库/图像的信息获取.md",
-    "Skill/Deep Learning/PIL库/图像绘制的工具.md",
     "Skill/Deep Learning/Deep Learning.md",
-    "Skill/Deep Learning/PIL库/图像大小和裁剪.md",
-    "Skill/Deep Learning/PIL库",
-    "Skill/Deep Learning/matplotlib库",
-    "Skill/Deep Learning/opencv库",
-    "Skill/Deep Learning/lightning库",
-    "Skill/Deep Learning/Basic",
-    "Futurewei",
-    "English/Speaking/日常词汇.pdf",
-    "English/Speaking/日常句子.pdf",
-    "English/Speaking/日常造句.pdf",
-    "Skill/Python/标准库/io 库 类.canvas",
+    "Skill/Python/deep learning/opencv库/opencv.md",
+    "Skill/Python/deep learning/pytorch库/pytorch.md",
+    "Skill/Python/deep learning/numpy库/ndarray 创建.md",
+    "Skill/Python/deep learning",
+    "- Calender/daily life/2024-06-17 Switch.md",
+    "- Calender/work life/(Every M) Futurewei Meeting.md",
+    "README.md",
+    "- Calender/school life",
+    "- Calender/work life",
+    "- Calender/daily life",
+    "- Calender/01 life",
+    "- Calender",
+    "Thesis/Abstract.md",
+    "Skill/Golang",
+    "Skill/Python/deep learning/pytorch库",
+    "Skill/Python/deep learning/matplotlib库/窗口设置.md",
+    "Skill/Deep Learning/pytorch库/pytorch.md",
+    "Skill/Deep Learning/lightning库/lightning.md",
+    "Skill/Python/deep learning/matplotlib库/图形绘制.md",
+    "Skill/Python/deep learning/matplotlib库/matplotlib.md",
+    "- Template/Weekly Journal Template.md",
+    "Futurewei/Carla Dataset.md",
+    "Journal/2024 - Week 24th - Jun.md",
+    "Research/Super Resolution/Thesis.md",
+    "Journal/2024 - Week 13th - Mar.md",
+    "Journal/2024 - Week 14th - Mar.md",
+    "Thesis",
+    "Skill/Python/standard/io 库 类.canvas",
+    "Skill/Python/库/标准库/io 库 类.canvas",
     "Obsidian-Python-vault 1.3/库/标准库/io 库 类.canvas",
     "- Attachment/Pasted image 20240228121240.png",
     "未命名.canvas",

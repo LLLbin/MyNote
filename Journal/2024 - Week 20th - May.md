@@ -1,0 +1,12 @@
+- 工作
+	-  测试数据集
+		- Finetune Anime4K (4d)
+		- Finetune Adacode (4d)
+		- Finetune Real-ESRGAN (4d)
+- 学习
+	- SCU
+		- Thesis 实验，很急
+	- 自学
+		- 摆了
+- 生活
+	- 忙
